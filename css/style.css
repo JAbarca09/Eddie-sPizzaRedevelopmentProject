@@ -10,26 +10,26 @@ body{
 .locationsHeader{
     font-family: 'Staatliches', cursive;
     color: #D61A3F;
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    line-height: 90%;
+    /* line-height: 100%; */
 }
 
 .locationsbtn{
     background-color: #D61A3F;
-    border: 1px solid #D61A3F;
+    border: none;
     border-radius: 25px;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
 }
 
 .greenLine{
     margin-top: 0px;
-    border: 3px solid #0A403A;
+    border: 2px solid #0A403A;
     border-radius: 25px;
     margin-bottom: 0px;
     display: flex;
@@ -41,4 +41,19 @@ body{
     margin-top: 0px;
     font-size: 1rem;
     line-height: 30%;
+}
+
+.locationsImg{
+    height: 100%;
+    width: 100%;
+    object-position: right;
+    object-fit: cover;
+}
+
+.locationsImgCol
+{
+    background-image: url("../images/cathal-mac-an-bheatha-CJAKsppS2co-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }

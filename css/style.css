@@ -62,9 +62,46 @@ body{
 .quotesTxt{
     color: #ffffff;
     font-family: 'Staatliches', cursive;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 }
 
 .quotesCol{
     line-height: 80%;
+}
+
+/* --------- FOOOTER STYLING---------- */
+.footerHeader{
+    color: #D61A3F;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2rem;
+    line-height: 1%;
+}
+
+.footerLine{
+    border: 1px solid #0A403A;
+    border-radius: 25px;
+    display: flex;
+}
+
+.fab {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.iconRow{
+    flex-direction: row;
+}
+
+.footerTxt{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 0.8rem;
+    line-height: 10%;
+}
+
+.footerTxt2{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 0.8rem;
+    line-height: 10%;
 }

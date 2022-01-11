@@ -13,11 +13,15 @@
   background-color: black;
 }
 
-.nav-link:hover {
+.nav-item:hover , .nav-link:hover {
   background: white !important;
   color: black !important;
-  border-radius: 0 !important;
 }
+
+/* .nav-link:hover{
+  background: white !important;
+  color: black !important;
+} */
 
 .navBarItems {
   display: flex;
@@ -30,8 +34,8 @@
 }
 
 .navBarSpacing {
-  display: flex;
-  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .NavbarMarginLeft{
@@ -39,17 +43,38 @@
 }
 
 /* This Section is for the text in the middle of the video! */
+
 .videoGrayBg{
   background-color: #191515;
+  opacity: 80%;
+}
 
+#pizzaGif{
+  background-image: url(../images/PizzaLoopExperiment.gif);
+  width: 100%;
+  height: 100vh;
 }
 
 .videoTitleTxt{
   font-family: 'Staatliches', cursive;
   font-size: 4rem;
   color: white;
+  opacity: 100% !important;
 }
 
+.text-block{
+  position: absolute;
+  bottom: 50%;
+  right: 15%;
+  background-color: #191515;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.marginTop{
+  margin-top: 18%;
+}
 
 /* --------------------------------------------------------------- */
 /* Italian Flag Section of the website */
@@ -94,3 +119,16 @@
 
 
 /* --------------------------------------------------------------- */
+/* Quote Section */
+
+.quoteTxt{
+  font-family: 'Staatliches', cursive;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.quoteByTxt{
+  font-family: 'Staatliches', cursive;
+  color: white;
+  font-size: 2rem;
+}

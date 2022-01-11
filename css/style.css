@@ -68,3 +68,61 @@ body{
 .quotesCol{
     line-height: 80%;
 }
+
+/* ----------MENU STYLING---------- */
+.menuImg{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+.menuImgCol {
+    background-image: url('../images/chad-montano-MqT0asuoIcU-unsplash.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-right: 3%;
+}
+
+.menuImgCol2 {
+    background-image: url('../images/chad-montano-MqT0asuoIcU-unsplash.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 3%;
+}
+
+.typeOfFoodTitle {
+    color: white;
+    font-family: 'Staatliches', Regular;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1;
+}
+
+.foodDescriptionTitle {
+    color: white;
+    font-family: 'Staatliches', Regular;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1;
+}
+
+.typeOfFoodTxt {
+    color: white;
+    font-family: 'Staatliches', Regular;
+    font-size: 35px;
+    text-align: left;
+    line-height: 1;
+    margin-top: 5%;
+}
+
+.menuTxt{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 1rem;
+    /* line-height: 30%; */
+}

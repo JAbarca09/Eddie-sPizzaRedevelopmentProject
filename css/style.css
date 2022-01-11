@@ -62,7 +62,7 @@ body{
 .quotesTxt{
     color: #ffffff;
     font-family: 'Staatliches', cursive;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 }
 
 .quotesCol{
@@ -125,4 +125,87 @@ body{
     margin-top: 0px;
     font-size: 1rem;
     /* line-height: 30%; */
+}
+
+/* --------- FOOOTER STYLING---------- */
+.footerHeader{
+    color: #D61A3F;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2rem;
+    line-height: 1%;
+}
+
+.footerLine{
+    border: 1px solid #0A403A;
+    border-radius: 25px;
+    display: flex;
+}
+
+.fab {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.iconRow{
+    flex-direction: row;
+}
+
+.footerTxt{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 0.8rem;
+    line-height: 10%;
+}
+
+
+/* -------FOOOTER RESPONSIVENESS-------- */
+/* styling for medium devices */
+@media screen and (max-width: 800px){
+    .quotesCol{
+        line-height: 90%;
+    }
+
+    .fab {
+        font-size: 1.2rem;
+    }
+
+    .iconBtn{
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .footerTxt{
+        font-size: 0.7rem;
+    }
+    .quotesTxt{
+        font-size: 1.6rem;
+    }
+
+}
+
+/* small screens */
+@media screen and (max-width: 600px){
+    .locationsHeader{
+        font-size: 1.2rem;
+        /* line-height: 100%; */
+    }
+
+    .locationsbtn{
+        font-size: 0.6rem;
+    }
+
+    .locationsTxt{
+        font-size: 0.8rem;
+        line-height: 5%;
+    }
+    .footerTxt{
+        font-size: 0.6rem;
+    }
+    .quotesTxt{
+        font-size: 1.3rem;
+    }
+
+    .footerHeader{
+        margin-bottom: 12px;
+    }
 }

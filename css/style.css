@@ -5,3 +5,40 @@
 body{
     background-color: black;
 }
+
+/* --------- LOCATIONS STYLING -------- */
+.locationsHeader{
+    font-family: 'Staatliches', cursive;
+    color: #D61A3F;
+    font-size: 2.4rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 90%;
+}
+
+.locationsbtn{
+    background-color: #D61A3F;
+    border: 1px solid #D61A3F;
+    border-radius: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.greenLine{
+    margin-top: 0px;
+    border: 3px solid #0A403A;
+    border-radius: 25px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.locationsTxt{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 1rem;
+    line-height: 30%;
+}

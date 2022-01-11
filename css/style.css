@@ -1,36 +1,36 @@
-.whiteBg{
-    background-color: white;
+.whiteBg {
+  background-color: white;
 }
 
 /* Navigation Bar Styling */
-.navBarFont{
-    font-family: 'Staatliches', cursive;
-    font-size: 2.5rem;
-    color: white !important;
+.navBarFont {
+  font-family: "Staatliches", cursive;
+  font-size: 2rem;
+  color: white !important;
 }
 
-.navBarBg{
-    background-color: black;
+.navBarBg {
+  background-color: black;
 }
 
-.nav-link:hover{
-    background: white !important;
-    color: black !important;
-    border-radius: 0 !important;
+.nav-link:hover {
+  background: white !important;
+  color: black !important;
+  border-radius: 0 !important;
 }
 
-.navBarItems{
-    display: flex;
-    justify-content: space-around;
+.navBarItems {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* This is for the hamburger menu! */
 .navbar-toggler {
-    background-color: white;
+  background-color: white;
 }
 
-.navBarSpacing{
-    display: flex;
-    justify-content: space-around;
+.navBarSpacing {
+  display: flex;
+  justify-content: center;
 }
 /* --------------------------------------------------------------- */

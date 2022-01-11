@@ -11,11 +11,136 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
 
-    <title>Hello, world!</title>
+
+    <title>Locations</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+      <!----------NAVBAR GOES HERE-->
+      <div class="row mt-5">
+        <!-- column of locations -->
+        <div class="col-lg-6 col-sm-12 order-lg-1 order-2">
+          <div class="container">
+            <div class="row mt-lg-0 mt-3">
+              <div class="col-lg-7 col-md-8 col-7 mb-0">
+                    <p class="locationsHeader ">Marina Shopping Center</p>
+              </div>
+              <div class="col-lg-5 col-md-4 col-5">
+                    <button type="button" class="locationsbtn mt-1">Order from this location</button>
+              </div>
+              <div class="greenLine"></div>
+              <div class="col-12 locationsTxt mt-3">
+                  <p>3201 W. Benjamin Holt Dr. (Ben Holt & I-5)</p>
+                  <p>Stockton, CA 95210</p>
+                  <p>phone: 209.951.4999</p>
+              </div>
+            </div><!-----END OF LOCATION FIRST ROW-->
+            <div class="row mt-md-3 mt-2">
+              <div class="col-lg-7 col-md-8 col-7 mb-0">
+                    <p class="locationsHeader mb-0">Kathleen Shopping Plaza</p>
+              </div>
+              <div class="col-lg-5 col-md-4 col-5">
+                    <button type="button" class="locationsbtn mt-1">Order from this location</button>
+              </div>
+              <div class="greenLine"></div>
+              <div class="col-12 locationsTxt mt-3">
+                  <p>1304 E. Hammer Lane</p>
+                  <p>Stockton, CA 95210</p>
+                  <p>phone: 209.477.2556</p>
+              </div>
+            </div> <!------END OF SECOND LOCATIONS ROW-->
+            <div class="row mt-md-3 mt-2">
+              <div class="col-lg-7 col-md-8 col-7 mb-0">
+                    <p class="locationsHeader mb-0">Waterloo Shopping Center</p>
+              </div>
+              <div class="col-lg-5 col-md-4 col-5">
+                    <button type="button" class="locationsbtn mt-1">Order from this location</button>
+              </div>
+              <div class="greenLine"></div>
+              <div class="col-12 locationsTxt mt-3">
+                  <p>1048 Waterloo Road</p>
+                  <p>Stockton, CA 95205</p>
+                  <p>phone: 209.462.1113</p>
+              </div>
+            </div> <!------END OF THIRD LOCATIONS ROW-->
+            <div class="row mt-md-3 mt-2">
+              <div class="col-lg-7 col-md-8 col-7 mb-0">
+                    <p class="locationsHeader mb-0">El Dorado Plaza</p>
+              </div>
+              <div class="col-lg-5 col-md-4 col-5">
+                    <button type="button" class="locationsbtn mt-1">Order from this location</button>
+              </div>
+              <div class="greenLine"></div>
+              <div class="col-12 locationsTxt mt-3">
+                  <p>1419 S. El Dorado Street</p>
+                  <p>Stockton, CA 95206</p>
+                  <p>phone: 209.462.1234</p>
+              </div>
+            </div> <!------END OF FOURTH LOCATIONS ROW-->
+          </div><!-----END OF CONTAINER-->
+        </div><!------END COLUMN OF LOCATIONS-->
+        <!-- column of picture -->
+        <div class="col-lg-6 col-12 order-lg-2 order-1">
+              <div class="locationsImgCol d-flex">
+                <img src="../images/cathal-mac-an-bheatha-CJAKsppS2co-unsplash.jpg" alt="" class="img-fluid mx-auto d-block locationsImg" >
+              </div>
+        </div><!-----END COLUMN OF PICTURE-->
+      </div> <!-----END OF ROW WITH 2 COLUMNS: LOCATIONS AND PIC-->
+      <div class="row justify-content-center text-center mt-5 mb-5"><!-----START OF QUOTES ROW-->
+        <div class="col-md-12 col-11 quotesCol quotesTxt mt-lg-5 mt-2">
+          <p>"Every pizza is a personal pizza if you try hard and believe in yourself."
+          </p>
+          <p> - Bill Murray</p>
+        </div>
+      </div><!------END OF QUOTES ROW------>
+      <div class="row justify-content-evenly mt-lg-5 mt-3"><!-------START OF FOOTER------>
+        <div class="col-md-2 col-4 text-center">
+          <p class="footerHeader">Follow Us</p>
+          <div class="footerLine"></div>
+          <div class="iconRow mt-md-2">
+            <button class="btn iconBtn">
+              <i class="fab fa-facebook"></i>
+            </button>
+            <button class="btn iconBtn">
+              <i class="fab fa-instagram"></i>
+            </button>
+            <button class="btn iconBtn">
+              <i class="fab fa-yelp"></i>
+            </button>
+          </div>
+        </div><!------END OF FOLLOW US COL-->
+        <div class="col-lg-2 col-md-3 col-4 text-center">
+          <p class="footerHeader">Hours</p>
+          <div class="footerLine"></div>
+          <p class="footerTxt mt-md-3 mt-2">Sun - Thurs: 10:30AM-9:30PM</p>
+          <p class="footerTxt">Fri - Sat: 10:30AM-10:00PM</p>
+        </div>
+        <div class="col-lg-6 col-md-7 col-11 mt-md-0 mt-3 text-center"><!----END OF HOURS COL-->
+          <p class="footerHeader">Locations </p>
+          <div class="footerLine"></div>
+          <div class="row mt-md-3 mt-2">
+            <div class="col-3">
+              <p class="footerTxt">3201 W. Ben Holt Dr.</p>
+              <p class="footerTxt">(209)951-4999</p>
+            </div>
+            <div class="col-3">
+              <p class="footerTxt">104 E. Hammer Ln.</p>
+              <p class="footerTxt">(209)477-2255</p>
+            </div>
+            <div class="col-3">
+              <p class="footerTxt">1048 E. Waterloo Rd.</p>
+              <p class="footerTxt">(209)462-1113</p>
+            </div>
+            <div class="col-3">
+              <p class="footerTxt">1419 S. El Dorado St.</p>
+              <p class="footerTxt">(209)462-1234</p>
+            </div>
+          </div>
+        </div><!-----END OF LOCATIONS COL-->
+      </div><!------END OF FOOTER------>
+    </div> <!-----END OF CONTAINER FLUID-->
 
     <!-- Optional JavaScript; choose one of the two! -->
 

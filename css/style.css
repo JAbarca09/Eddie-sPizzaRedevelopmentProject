@@ -132,3 +132,153 @@
   color: white;
   font-size: 2rem;
 }
+
+ body{
+    background-color: black;
+}
+
+/* --------- LOCATIONS STYLING -------- */
+.locationsHeader{
+    font-family: 'Staatliches', cursive;
+    color: #D61A3F;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* line-height: 100%; */
+}
+
+.locationsbtn{
+    background-color: #D61A3F;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    /* margin-bottom: 0px; */
+}
+
+.greenLine{
+    margin-top: 0px;
+    border: 2px solid #0A403A;
+    border-radius: 25px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.locationsTxt{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 1rem;
+    line-height: 30%;
+}
+
+.locationsImg{
+    height: 100%;
+    width: 100%;
+    object-position: right;
+    object-fit: cover;
+}
+
+.locationsImgCol
+{
+    background-image: url("../images/cathal-mac-an-bheatha-CJAKsppS2co-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----------QUOTES STYLING---------- */
+.quotesTxt{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 2.1rem;
+}
+
+.quotesCol{
+    line-height: 80%;
+}
+
+/* --------- FOOOTER STYLING---------- */
+.footerHeader{
+    color: #D61A3F;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2rem;
+    line-height: 1%;
+}
+
+.footerLine{
+    border: 1px solid #0A403A;
+    border-radius: 25px;
+    display: flex;
+}
+
+.fab {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.iconRow{
+    flex-direction: row;
+}
+
+.footerTxt{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 0.8rem;
+    line-height: 10%;
+}
+
+
+/* -------FOOOTER RESPONSIVENESS-------- */
+/* styling for medium devices */
+@media screen and (max-width: 800px){
+    .quotesCol{
+        line-height: 90%;
+    }
+
+    .fab {
+        font-size: 1.2rem;
+    }
+
+    .iconBtn{
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .footerTxt{
+        font-size: 0.7rem;
+    }
+    .quotesTxt{
+        font-size: 1.6rem;
+    }
+
+}
+
+/* small screens */
+@media screen and (max-width: 600px){
+    .locationsHeader{
+        font-size: 1.2rem;
+        /* line-height: 100%; */
+    }
+
+    .locationsbtn{
+        font-size: 0.6rem;
+    }
+
+    .locationsTxt{
+        font-size: 0.8rem;
+        line-height: 5%;
+    }
+    .footerTxt{
+        font-size: 0.6rem;
+    }
+    .quotesTxt{
+        font-size: 1.3rem;
+    }
+
+    .footerHeader{
+        margin-bottom: 12px;
+    }
+}

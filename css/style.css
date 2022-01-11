@@ -57,3 +57,14 @@ body{
     background-position: center;
     background-size: cover;
 }
+
+/* ----------QUOTES STYLING---------- */
+.quotesTxt{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5rem;
+}
+
+.quotesCol{
+    line-height: 80%;
+}

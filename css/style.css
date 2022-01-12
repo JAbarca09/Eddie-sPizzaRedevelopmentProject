@@ -4,7 +4,7 @@
 
 /* Navigation Bar Styling */
 .navBarFont {
-  font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
   font-size: 2rem;
   color: white !important;
 }
@@ -13,7 +13,8 @@
   background-color: black;
 }
 
-.nav-item:hover , .nav-link:hover {
+.nav-item:hover,
+.nav-link:hover {
   background: white !important;
   color: black !important;
 }
@@ -38,31 +39,31 @@
   margin-right: auto;
 }
 
-.NavbarMarginLeft{
+.NavbarMarginLeft {
   margin-left: 2.5rem;
 }
 
 /* This Section is for the text in the middle of the video! */
 
-.videoGrayBg{
+.videoGrayBg {
   background-color: #191515;
   opacity: 80%;
 }
 
-#pizzaGif{
+#pizzaGif {
   background-image: url(../images/PizzaLoopExperiment.gif);
   width: 100%;
   height: 100vh;
 }
 
-.videoTitleTxt{
-  font-family: 'Staatliches', cursive;
+.videoTitleTxt {
+  font-family: "Staatliches", cursive;
   font-size: 4rem;
   color: white;
   opacity: 100% !important;
 }
 
-.text-block{
+.text-block {
   position: absolute;
   bottom: 50%;
   right: 15%;
@@ -72,213 +73,208 @@
   padding-right: 20px;
 }
 
-.marginTop{
+.marginTop {
   margin-top: 18%;
 }
 
 /* --------------------------------------------------------------- */
 /* Italian Flag Section of the website */
-.greenBg{
-  background-color: #0A403A;
-
+.greenBg {
+  background-color: #0a403a;
 }
 
-.redBg{
-  background-color: #B4213E;
+.redBg {
+  background-color: #b4213e;
 }
 
-.whiteThinTxt{
-  font-family: 'Raleway', sans-serif;
+.whiteThinTxt {
+  font-family: "Raleway", sans-serif;
   color: white;
   font-size: 1.5rem;
 }
 
-.ContactUsWhiteThinTxt{
-  font-family: 'Raleway', sans-serif;
+.ContactUsWhiteThinTxt {
+  font-family: "Raleway", sans-serif;
   color: white;
   font-size: 1.25rem;
 }
 
-.whiteTitleTxt{
-  font-family: 'Staatliches', cursive;
+.whiteTitleTxt {
+  font-family: "Staatliches", cursive;
   font-size: 2.5rem;
   color: white;
 }
 
-.blackTitleTxt{
-  font-family: 'Staatliches', cursive;
+.blackTitleTxt {
+  font-family: "Staatliches", cursive;
   font-size: 2.5rem;
   color: black;
 }
 
-.blackText{
-  font-family: 'Raleway', sans-serif;
+.blackText {
+  font-family: "Raleway", sans-serif;
   color: black;
   font-size: 1.5rem;
 }
 
-
 /* --------------------------------------------------------------- */
 /* Quote Section */
 
-.quoteTxt{
-  font-family: 'Staatliches', cursive;
+.quoteTxt {
+  font-family: "Staatliches", cursive;
   color: white;
   font-size: 2.5rem;
 }
 
-.quoteByTxt{
-  font-family: 'Staatliches', cursive;
+.quoteByTxt {
+  font-family: "Staatliches", cursive;
   color: white;
   font-size: 2rem;
 }
 
- body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
 /* --------- LOCATIONS STYLING -------- */
-.locationsHeader{
-    font-family: 'Staatliches', cursive;
-    color: #D61A3F;
-    font-size: 1.5rem;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    /* line-height: 100%; */
+.locationsHeader {
+  font-family: "Staatliches", cursive;
+  color: #d61a3f;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  /* line-height: 100%; */
 }
 
-.locationsbtn{
-    background-color: #D61A3F;
-    border: none;
-    border-radius: 25px;
-    font-family: 'Raleway', sans-serif;
-    color: #ffffff;
-    font-size: 0.9rem;
-    font-weight: bold;
-    /* margin-bottom: 0px; */
+.locationsbtn {
+  background-color: #d61a3f;
+  border: none;
+  border-radius: 25px;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  /* margin-bottom: 0px; */
 }
 
-.greenLine{
-    margin-top: 0px;
-    border: 2px solid #0A403A;
-    border-radius: 25px;
-    margin-bottom: 0px;
-    display: flex;
+.greenLine {
+  margin-top: 0px;
+  border: 2px solid #0a403a;
+  border-radius: 25px;
+  margin-bottom: 0px;
+  display: flex;
 }
 
-.locationsTxt{
-    font-family: 'Raleway', sans-serif;
-    color: #ffffff;
-    margin-top: 0px;
-    font-size: 1rem;
-    line-height: 30%;
+.locationsTxt {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  margin-top: 0px;
+  font-size: 1rem;
+  line-height: 30%;
 }
 
-.locationsImg{
-    height: 100%;
-    width: 100%;
-    object-position: right;
-    object-fit: cover;
+.locationsImg {
+  height: 100%;
+  width: 100%;
+  object-position: right;
+  object-fit: cover;
 }
 
-.locationsImgCol
-{
-    background-image: url("../images/cathal-mac-an-bheatha-CJAKsppS2co-unsplash.jpg");
-    height: 100%;
-    background-position: center;
-    background-size: cover;
+.locationsImgCol {
+  background-image: url("../images/cathal-mac-an-bheatha-CJAKsppS2co-unsplash.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 /* ----------QUOTES STYLING---------- */
-.quotesTxt{
-    color: #ffffff;
-    font-family: 'Staatliches', cursive;
-    font-size: 2.1rem;
+.quotesTxt {
+  color: #ffffff;
+  font-family: "Staatliches", cursive;
+  font-size: 2.1rem;
 }
 
-.quotesCol{
-    line-height: 80%;
+.quotesCol {
+  line-height: 80%;
 }
 
 /* --------- FOOOTER STYLING---------- */
-.footerHeader{
-    color: #D61A3F;
-    font-family: 'Staatliches', cursive;
-    font-size: 1.2rem;
-    line-height: 1%;
+.footerHeader {
+  color: #d61a3f;
+  font-family: "Staatliches", cursive;
+  font-size: 1.2rem;
+  line-height: 1%;
 }
 
-.footerLine{
-    border: 1px solid #0A403A;
-    border-radius: 25px;
-    display: flex;
+.footerLine {
+  border: 1px solid #0a403a;
+  border-radius: 25px;
+  display: flex;
 }
 
 .fab {
-    color: white;
-    font-size: 1.3rem;
+  color: white;
+  font-size: 1.3rem;
 }
 
-.iconRow{
-    flex-direction: row;
+.iconRow {
+  flex-direction: row;
 }
 
-.footerTxt{
-    color: #ffffff;
-    font-family: 'Staatliches', cursive;
-    font-size: 0.8rem;
-    line-height: 10%;
+.footerTxt {
+  color: #ffffff;
+  font-family: "Staatliches", cursive;
+  font-size: 0.8rem;
+  line-height: 10%;
 }
-
 
 /* -------FOOOTER RESPONSIVENESS-------- */
 /* styling for medium devices */
-@media screen and (max-width: 800px){
-    .quotesCol{
-        line-height: 90%;
-    }
+@media screen and (max-width: 800px) {
+  .quotesCol {
+    line-height: 90%;
+  }
 
-    .fab {
-        font-size: 1.2rem;
-    }
+  .fab {
+    font-size: 1.2rem;
+  }
 
-    .iconBtn{
-        padding: 5px;
-        text-decoration: none;
-    }
+  .iconBtn {
+    padding: 5px;
+    text-decoration: none;
+  }
 
-    .footerTxt{
-        font-size: 0.7rem;
-    }
-    .quotesTxt{
-        font-size: 1.6rem;
-    }
-
+  .footerTxt {
+    font-size: 0.7rem;
+  }
+  .quotesTxt {
+    font-size: 1.6rem;
+  }
 }
 
 /* small screens */
-@media screen and (max-width: 600px){
-    .locationsHeader{
-        font-size: 1.2rem;
-        /* line-height: 100%; */
-    }
+@media screen and (max-width: 600px) {
+  .locationsHeader {
+    font-size: 1.2rem;
+    /* line-height: 100%; */
+  }
 
-    .locationsbtn{
-        font-size: 0.6rem;
-    }
+  .locationsbtn {
+    font-size: 0.6rem;
+  }
 
-    .locationsTxt{
-        font-size: 0.8rem;
-        line-height: 5%;
-    }
-    .footerTxt{
-        font-size: 0.6rem;
-    }
-    .quotesTxt{
-        font-size: 1.3rem;
-    }
+  .locationsTxt {
+    font-size: 0.8rem;
+    line-height: 5%;
+  }
+  .footerTxt {
+    font-size: 0.6rem;
+  }
+  .quotesTxt {
+    font-size: 1.3rem;
+  }
 
-    .footerHeader{
-        margin-bottom: 12px;
-    }
+  .footerHeader {
+    margin-bottom: 12px;
+  }
 }

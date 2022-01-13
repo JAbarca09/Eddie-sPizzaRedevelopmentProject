@@ -197,12 +197,21 @@ body {
   display: flex;
 }
 
+/* <<<<<<< HEAD */
 .locationsTxt {
   font-family: "Raleway", sans-serif;
   color: #ffffff;
   margin-top: 0px;
   font-size: 1rem;
   line-height: 30%;
+}
+
+.locationsTxt{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff !important;
+    margin-top: 0px;
+    font-size: 1rem;
+    line-height: 30%;
 }
 
 .locationsImg {
@@ -231,11 +240,19 @@ body {
 }
 
 /* --------- FOOOTER STYLING---------- */
+/* <<<<<<< HEAD */
 .footerHeader {
   color: #d61a3f;
   font-family: "Staatliches", cursive;
   font-size: 1.2rem;
   line-height: 1%;
+}
+/* ======= */
+.footerHeader{
+    color: #D61A3F;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+    line-height: 1%;
 }
 
 .footerLine {
@@ -253,6 +270,7 @@ body {
   flex-direction: row;
 }
 
+/* <<<<<<< HEAD */
 .footerTxt {
   color: #ffffff;
   font-family: "Staatliches", cursive;
@@ -262,6 +280,59 @@ body {
 }
 
 /* -------FOOOTER RESPONSIVENESS-------- */
+/* ======= */
+.footerTxt{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2rem;
+    line-height: 10%;
+}
+
+/* ------- CATERING STYLING -------- */
+.eventsHeader{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+}
+
+.eventsTxt{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+}
+
+.offeringsTxt{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    line-height: 100%;
+}
+
+.eventsImgCol{
+        background-image: url("./images/pexels-cottonbro-3944307 (1).jpg");
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+}
+
+.eventsImg{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+/* ------- RESPONSIVENESS-------- */
+@media screen and (max-width: 1100px){
+    .footerHeader{
+        font-size: 1.3rem;
+    }
+    .footerTxt{
+        font-size: 1rem;
+    }
+}
+
+/* >>>>>>> bc9ae7b68f79ed1d014c26f15420f4e9a14641ca */
 /* styling for medium devices */
 @media screen and (max-width: 800px) {
   .quotesCol {
@@ -272,10 +343,18 @@ body {
     font-size: 1.2rem;
   }
 
+/* <<<<<<< HEAD */
   .iconBtn {
     padding: 5px;
     text-decoration: none;
   }
+/* ======= */
+    .footerTxt{
+        font-size: 0.9rem;
+    }
+    .quotesTxt{
+        font-size: 1.6rem;
+    }
 
   .footerTxt {
     font-size: 0.7rem;
@@ -285,6 +364,7 @@ body {
   }
 }
 
+/* <<<<<<< HEAD */
 /* small screens */
 @media screen and (max-width: 600px) {
   .locationsHeader {
@@ -310,4 +390,52 @@ body {
   .footerHeader {
     margin-bottom: 12px;
   }
+}
+/* ======= */
+/* small screens like iphone 13 */
+@media screen and (max-width: 600px){
+    .locationsHeader{
+        font-size: 1.3rem;
+        /* line-height: 100%; */
+    }
+
+    .locationsTxt{
+        font-size: 0.8rem;
+        line-height: 5%;
+    }
+    .footerTxt{
+        font-size: 0.8rem;
+    }
+
+    .footerHeader{
+        margin-bottom: 12px;
+        font-size: 1.1rem;
+    }
+
+    .eventsHeader{
+        font-size: 1.8rem;
+    }
+}
+/* iphone x */
+@media screen and (max-width: 400px){
+    .locationsHeader{
+        font-size: 1.1rem;
+        /* line-height: 100%; */
+    }
+
+    .locationsTxt{
+        font-size: 0.8rem;
+        line-height: 5%;
+    }
+    .footerTxt{
+        font-size: 0.7rem;
+    }
+
+    .footerHeader{
+        font-size: 1rem;
+    }
+
+    .eventsHeader{
+        font-size: 1.8rem;
+    }
 }

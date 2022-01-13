@@ -37,7 +37,7 @@ body{
 
 .locationsTxt{
     font-family: 'Raleway', sans-serif;
-    color: #ffffff;
+    color: #ffffff !important;
     margin-top: 0px;
     font-size: 1rem;
     line-height: 30%;
@@ -141,7 +141,6 @@ body{
     .footerTxt{
         font-size: 1rem;
     }
-    
 }
 
 /* styling for medium devices */
@@ -168,15 +167,11 @@ body{
 
 }
 
-/* small screens */
+/* small screens like iphone 13 */
 @media screen and (max-width: 600px){
     .locationsHeader{
         font-size: 1.3rem;
         /* line-height: 100%; */
-    }
-
-    .locationsbtn{
-        font-size: 0.6rem;
     }
 
     .locationsTxt{
@@ -186,13 +181,33 @@ body{
     .footerTxt{
         font-size: 0.8rem;
     }
-    .quotesTxt{
-        font-size: 1.3rem;
-    }
 
     .footerHeader{
         margin-bottom: 12px;
         font-size: 1.1rem;
+    }
+
+    .eventsHeader{
+        font-size: 1.8rem;
+    }
+}
+/* iphone x */
+@media screen and (max-width: 400px){
+    .locationsHeader{
+        font-size: 1.1rem;
+        /* line-height: 100%; */
+    }
+
+    .locationsTxt{
+        font-size: 0.8rem;
+        line-height: 5%;
+    }
+    .footerTxt{
+        font-size: 0.7rem;
+    }
+
+    .footerHeader{
+        font-size: 1rem;
     }
 
     .eventsHeader{

@@ -37,7 +37,7 @@ body{
 
 .locationsTxt{
     font-family: 'Raleway', sans-serif;
-    color: #ffffff;
+    color: #ffffff !important;
     margin-top: 0px;
     font-size: 1rem;
     line-height: 30%;
@@ -253,8 +253,50 @@ ul li a:hover, ul li a:focus {
     line-height: 10%;
 }
 
+/* ------- CATERING STYLING -------- */
+.eventsHeader{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+}
 
-/* -------FOOOTER RESPONSIVENESS-------- */
+.eventsTxt{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+}
+
+.offeringsTxt{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    line-height: 100%;
+}
+
+.eventsImgCol{
+        background-image: url("./images/pexels-cottonbro-3944307 (1).jpg");
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+}
+
+.eventsImg{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+/* ------- RESPONSIVENESS-------- */
+@media screen and (max-width: 1100px){
+    .footerHeader{
+        font-size: 1.3rem;
+    }
+    .footerTxt{
+        font-size: 1rem;
+    }
+}
+
 /* styling for medium devices */
 @media screen and (max-width: 800px){
     .quotesCol{
@@ -271,7 +313,7 @@ ul li a:hover, ul li a:focus {
     }
 
     .footerTxt{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     .quotesTxt{
         font-size: 1.6rem;
@@ -279,15 +321,11 @@ ul li a:hover, ul li a:focus {
 
 }
 
-/* small screens */
+/* small screens like iphone 13 */
 @media screen and (max-width: 600px){
     .locationsHeader{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         /* line-height: 100%; */
-    }
-
-    .locationsbtn{
-        font-size: 0.6rem;
     }
 
     .locationsTxt{
@@ -295,13 +333,38 @@ ul li a:hover, ul li a:focus {
         line-height: 5%;
     }
     .footerTxt{
-        font-size: 0.6rem;
-    }
-    .quotesTxt{
-        font-size: 1.3rem;
+        font-size: 0.8rem;
     }
 
     .footerHeader{
         margin-bottom: 12px;
+        font-size: 1.1rem;
+    }
+
+    .eventsHeader{
+        font-size: 1.8rem;
+    }
+}
+/* iphone x */
+@media screen and (max-width: 400px){
+    .locationsHeader{
+        font-size: 1.1rem;
+        /* line-height: 100%; */
+    }
+
+    .locationsTxt{
+        font-size: 0.8rem;
+        line-height: 5%;
+    }
+    .footerTxt{
+        font-size: 0.7rem;
+    }
+
+    .footerHeader{
+        font-size: 1rem;
+    }
+
+    .eventsHeader{
+        font-size: 1.8rem;
     }
 }

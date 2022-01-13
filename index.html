@@ -21,16 +21,19 @@
 
   <title>Eddie's Pizza - Home Page!</title>
 </head>
-
+<!-- Resources :-->
+<!-- Bootstrap Responsiveness: https://getbootstrap.com/docs/5.1/layout/containers/ -->
+<!-- Bootstrap Hiding Elements: https://getbootstrap.com/docs/5.1/utilities/display/#hiding-elements -->
+<!-- Bootstrap Order of Elements: https://getbootstrap.com/docs/5.1/layout/columns/#order-classes -->
 <body>
   <div class="container-fluid navBarBg">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12"> <!-- First navigation bar for larger screen sizes! -->
         <!-- Navigaton Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
           <div class="container-fluid">
             <a class="navbar-brand navBarFont" href="#">
-              <img src="./images/Eddie'sPizzaLogo.png" alt="Logo of Eddie's Pizza!" height="125vh" width="100%">
+              <img src="./images/Eddie'sPizzaLogo.png" class="" alt="Logo of Eddie's Pizza!" height="125vh" width="100%">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,22 +42,42 @@
             <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active navBarFont mx-5" aria-current="page" href="./pages/menu.html">Menu</a>
+                  <a class="nav-link active navBarFont largeNavBar mx-5" aria-current="page" href="./pages/menu.html">Menu</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navBarFont mx-5" href="./pages/locations.html">Locations</a>
+                  <a class="nav-link navBarFont largeNavBar mx-5" href="./pages/locations.html">Locations</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navBarFont mx-5" href="./pages/events.html">Catering</a>
+                  <a class="nav-link navBarFont largeNavBar mx-5" href="./pages/events.html">Catering</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navBarFont mx-5" href="./pages/menu.html">Order Now</a>
+                  <a class="nav-link navBarFont largeNavBar mx-5" href="./pages/menu.html">Order Now</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+        <!-- Second navigation bar begins!-->
+        <nav class="navbar navbar-expand-lg navbar-light navBarBg bg-light d-xxl-none d-xl-none d-xxl-block d-lg-none d-xl-block">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./images/Eddie'sPizzaLogo.png" height="125vh" width="100%" alt="Logo of Eddie's Pizza!">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active navBarFont" aria-current="page" href="./pages/menu.html">Menu</a>
+                <a class="nav-link navBarFont" href="./pages/locations.html">Locations</a>
+                <a class="nav-link navBarFont" href="./pages/events.html">Catering</a>
+                <a class="nav-link navBarFont" href="./pages/events.html">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div><!-- Closing of my navigation bar -->
+    </div>
     </div>
     <div class="container-fluid p-0">
       <div class="row">
@@ -75,12 +98,14 @@
     </div>
     <div class="container mt-3">
       <div class="row">
-        <div class="col-4 greenBg text-center">
+        <div class="ol-lg-4 col-md-4 col-sm-12 order-sm-1 col-12 greenBg text-center">
           <p class="whiteTitleTxt m-0 mt-3">About Us</p>
           <p class="whiteThinTxt">We've been serving the Stockton area for over 35 years with delicious pizza, friendly
             family atmosphere, and all at an honest value. Enjoy a delicious meal from Eddie’s Pizza today!</p>
+          <br/>
+          <br/>
         </div>
-        <div class="col-4 whiteBg text-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 order-sm-2 col-12 whiteBg text-center">
           <p class="blackTitleTxt m-0 mt-3">Hours</p>
           <br />
           <strong class="blackText">Sunday - Thursday:</strong>
@@ -92,8 +117,11 @@
           <strong class="blackText">Friday - Saturday:</strong>
           <br />
           <strong class="blackText">10:30 AM - 10:00 Pm</strong>
+          <br/>
+          <br/>
+          <br/>
         </div>
-        <div class="col-4 redBg text-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 order-sm-3 col-12 redBg text-center">
           <p class="whiteTitleTxt m-0 mt-3">Contact Us</p>
           <strong class="ContactUsWhiteThinTxt">1419 S. El Dorado Street</strong>
           <p class="ContactUsWhiteThinTxt m-0">(209)462-1234</p>
@@ -106,7 +134,7 @@
           <br />
         </div>
       </div>
-    </div>
+    </div><!-- Closing of container-->
     <div class="row justify-content-center text-center mt-5 mb-5"><!-----START OF QUOTES ROW-->
       <div class="col-md-12 col-11 quotesCol quotesTxt mt-lg-5 mt-2">
         <p>"Every pizza is a personal pizza if you try hard and believe in yourself."

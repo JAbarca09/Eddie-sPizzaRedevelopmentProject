@@ -2,22 +2,50 @@
   background-color: white;
 }
 
+.bg-light{
+  background-color: black !important;
+}
+
 /* Navigation Bar Styling */
 .navBarFont {
   font-family: "Staatliches", cursive;
   font-size: 2rem;
   color: white !important;
 }
+.navbar-toggler{
+  background-color: black !important;
+}
+
+.navbar-light .navbar-toggler-icon{
+  background-image: url(../images/togglerIconBg.png) !important;
+  width: 10vh;
+  height: 10vh;
+}
 
 .navBarBg {
   background-color: black;
 }
 
-.nav-item:hover,
-.nav-link:hover {
+.smallerNavBarItem{
+  background-color: black !important;
+  color: white !important;
+}
+
+.largeNavBar:hover{
   background: white !important;
   color: black !important;
 }
+
+.nav-item:hover{
+  background: white !important;
+  color: black !important;
+}
+
+/* This class applies the hover styling to both navigation bars! */
+/* .nav-item:hover, .nav-link:hover {
+  background: white !important;
+  color: black !important;
+} */
 
 /* .nav-link:hover{
   background: white !important;

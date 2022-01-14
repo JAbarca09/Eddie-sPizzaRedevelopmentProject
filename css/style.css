@@ -44,24 +44,6 @@
   color: white !important;
 }
 
-
-
-.nav-item:hover {
-  /* background: white !important; */
-  /* color: black !important; */
-}
-
-/* This class applies the hover styling to both navigation bars! */
-/* .nav-item:hover, .nav-link:hover {
-  background: white !important;
-  color: black !important;
-} */
-
-/* .nav-link:hover{
-  background: white !important;
-  color: black !important;
-} */
-
 .reverse-nav{
   direction: rtl;
 }

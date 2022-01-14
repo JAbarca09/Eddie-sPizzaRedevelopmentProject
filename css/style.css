@@ -521,7 +521,7 @@ ul li a:hover, ul li a:focus {
     }
 
   .footerTxt {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
   .quotesTxt {
     font-size: 1.6rem;
@@ -987,7 +987,7 @@ ul li a:hover, ul li a:focus {
     font-size: 1.1rem;
   }
 
-}
+
 /* Jesse's media querries^ */
 
     .eventsTxt{

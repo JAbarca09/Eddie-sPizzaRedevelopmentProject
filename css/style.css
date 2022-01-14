@@ -6,13 +6,25 @@
   background-color: black !important;
 }
 
+.firstNavBarLogo{
+  height: 120px;
+  width: 180px;
+}
 
 /* Navigation Bar Styling */
 .navBarFont {
   font-family: "Staatliches", cursive;
   font-size: 2rem;
   color: white !important;
+  padding-right: 40px !important;
+  padding-left: 40px !important;
 }
+
+.navBarFont:hover{
+  background-color: white !important;
+  color: black !important;
+}
+
 .navbar-toggler{
   background-color: black !important;
 }
@@ -32,14 +44,11 @@
   color: white !important;
 }
 
-.largeNavBar:hover{
-  background: white !important;
-  color: black !important;
-}
 
-.nav-item:hover{
-  background: white !important;
-  color: black !important;
+
+.nav-item:hover {
+  /* background: white !important; */
+  /* color: black !important; */
 }
 
 /* This class applies the hover styling to both navigation bars! */
@@ -422,7 +431,6 @@ body {
 @media screen and (max-width: 400px){
     .locationsHeader{
         font-size: 1.1rem;
-        /* line-height: 100%; */
     }
 
     .locationsTxt{
@@ -443,42 +451,46 @@ body {
 }
 
 
-
-
-
-/* Jesse Media Query */
+/* Jesse Media Querries are below */
 /* 350px, 400px, 600px, 800px, 1100px  */
-@media screen and (max-width: 350px){
-  /* The size of the pizza logo should change, text size should change  */
+
+@media screen and (max-width: 1100px){
+
+  /* THe logo for the second navbar */
   .smallNavbarLogo{
-    height: 70px;
-    width: 100px;
+    height: 120px;
+    width: 180px;
   }
 
   #pizzaGif {
     background-image: url(../images/PizzaLoopExperiment.gif);
     width: 100%;
-    height: 75vh;
-    background-position: left;
+    height: 100vh;
+    /* background-position: left; */
+  }
+
+  .marginTop {
+    margin-top: 25%;
   }
 
   .navbar-light .navbar-toggler-icon{
     background-image: url(../images/togglerIconBg.png) !important;
-    width: 5vh;
-    height: 5vh;
+    width: 8vh;
+    height: 8vh;
   }
 
-  /* Navbar text */
-  .navBarFont {
+  .smallNavBarFont {
     font-family: "Staatliches", cursive;
-    font-size: 1.1rem;
+    font-size: 2rem;
     color: white !important;
-    margin-left: 40px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-left: 43px;
   }
   
   .videoTitleTxt {
     font-family: "Staatliches", cursive;
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     opacity: 100% !important;
   }
@@ -486,34 +498,180 @@ body {
   .whiteThinTxt {
     font-family: "Raleway", sans-serif;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.75rem;
   }
   
   .ContactUsWhiteThinTxt {
     font-family: "Raleway", sans-serif;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.75rem;
   }
   
   .whiteTitleTxt {
     font-family: "Staatliches", cursive;
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     color: white;
   }
   
   .blackTitleTxt {
     font-family: "Staatliches", cursive;
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     color: black;
   }
   
   .blackText {
     font-family: "Raleway", sans-serif;
     color: black;
-    font-size: 1.1rem;
+    font-size: 1.75rem;
   }
 
 }
+
+
+@media screen and (max-width: 800px){
+  /* The size of the pizza logo should change, text size should change  */
+  .smallNavbarLogo{
+    height: 100px;
+    width: 140px;
+  }
+
+  #pizzaGif {
+    background-image: url(../images/PizzaLoopExperiment.gif);
+    width: 100%;
+    height: 100vh;
+    background-position: left;
+  }
+
+  .marginTop {
+    margin-top: 30%;
+  }
+
+  .navbar-light .navbar-toggler-icon{
+    background-image: url(../images/togglerIconBg.png) !important;
+    width: 8vh;
+    height: 8vh;
+  }
+
+  /* Navbar text */
+  .smallNavBarFont {
+    font-family: "Staatliches", cursive;
+    font-size: 2rem;
+    color: white !important;
+    margin-left: 43px;
+  }
+  
+  .videoTitleTxt {
+    font-family: "Staatliches", cursive;
+    font-size: 3rem;
+    color: white;
+    opacity: 100% !important;
+  }
+
+  .whiteThinTxt {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .ContactUsWhiteThinTxt {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 1.75rem;
+  }
+  
+  .whiteTitleTxt {
+    font-family: "Staatliches", cursive;
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .blackTitleTxt {
+    font-family: "Staatliches", cursive;
+    font-size: 2.5rem;
+    color: black;
+  }
+  
+  .blackText {
+    font-family: "Raleway", sans-serif;
+    color: black;
+    font-size: 1.75rem;
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px){
+  /* The size of the pizza logo should change, text size should change  */
+  .smallNavbarLogo{
+    height: 100px;
+    width: 140px;
+  }
+
+  #pizzaGif {
+    background-image: url(../images/PizzaLoopExperiment.gif);
+    width: 100%;
+    height: 80vh;
+    background-position: left;
+  }
+
+  .marginTop {
+    margin-top: 30%;
+  }
+
+  .navbar-light .navbar-toggler-icon{
+    background-image: url(../images/togglerIconBg.png) !important;
+    width: 7vh;
+    height: 7vh;
+  }
+
+  /* Navbar text */
+  .smallNavBarFont {
+    font-family: "Staatliches", cursive;
+    font-size: 1.5rem;
+    color: white !important;
+    margin-left: 43px;
+  }
+  
+  .videoTitleTxt {
+    font-family: "Staatliches", cursive;
+    font-size: 2.5rem;
+    color: white;
+    opacity: 100% !important;
+  }
+
+  .whiteThinTxt {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .ContactUsWhiteThinTxt {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 1.25rem;
+  }
+  
+  .whiteTitleTxt {
+    font-family: "Staatliches", cursive;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .blackTitleTxt {
+    font-family: "Staatliches", cursive;
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .blackText {
+    font-family: "Raleway", sans-serif;
+    color: black;
+    font-size: 1.5rem;
+  }
+
+}
+
 
 
 @media screen and (max-width: 400px){
@@ -541,7 +699,7 @@ body {
   }
 
   /* Navbar text */
-  .navBarFont {
+  .smallNavBarFont {
     font-family: "Staatliches", cursive;
     font-size: 1.25rem;
     color: white !important;
@@ -558,13 +716,13 @@ body {
   .whiteThinTxt {
     font-family: "Raleway", sans-serif;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   
   .ContactUsWhiteThinTxt {
     font-family: "Raleway", sans-serif;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   
   .whiteTitleTxt {
@@ -588,215 +746,73 @@ body {
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 350px){
   /* The size of the pizza logo should change, text size should change  */
   .smallNavbarLogo{
-    height: 100px;
-    width: 140px;
+    height: 50px;
+    width: 80px;
   }
 
   #pizzaGif {
     background-image: url(../images/PizzaLoopExperiment.gif);
     width: 100%;
-    height: 100vh;
-    background-position: left;
-  }
-
-  .marginTop {
-    margin-top: 30%;
+    height: 70vh;
+    background-position: bottom;
   }
 
   .navbar-light .navbar-toggler-icon{
     background-image: url(../images/togglerIconBg.png) !important;
-    width: 7vh;
-    height: 7vh;
+    width: 5vh;
+    height: 5vh;
   }
 
-  /* Navbar text */
-  .navBarFont {
+
+  .smallNavBarFont{
+    font-family: "Staatliches", cursive;
+    font-size: 1.1rem;
+    color: white !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-left: 42px;
+  }
+  
+
+  .videoTitleTxt {
+    font-family: "Staatliches", cursive;
+    font-size: 2rem;
+    color: white;
+    opacity: 100% !important;
+  }
+
+  .whiteThinTxt {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  .ContactUsWhiteThinTxt {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  .whiteTitleTxt {
     font-family: "Staatliches", cursive;
     font-size: 1.5rem;
-    color: white !important;
-    margin-left: 43px;
-  }
-  
-  .videoTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 3rem;
-    color: white;
-    opacity: 100% !important;
-  }
-
-  .whiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.75rem;
-  }
-  
-  .ContactUsWhiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.75rem;
-  }
-  
-  .whiteTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 2.25rem;
     color: white;
   }
   
   .blackTitleTxt {
     font-family: "Staatliches", cursive;
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     color: black;
   }
   
   .blackText {
     font-family: "Raleway", sans-serif;
     color: black;
-    font-size: 1.75rem;
+    font-size: 1.1rem;
   }
 
 }
-
-@media screen and (max-width: 800px){
-  /* The size of the pizza logo should change, text size should change  */
-  .smallNavbarLogo{
-    height: 100px;
-    width: 140px;
-  }
-
-  #pizzaGif {
-    background-image: url(../images/PizzaLoopExperiment.gif);
-    width: 100%;
-    height: 100vh;
-    background-position: left;
-  }
-
-  .marginTop {
-    margin-top: 30%;
-  }
-
-  .navbar-light .navbar-toggler-icon{
-    background-image: url(../images/togglerIconBg.png) !important;
-    width: 8vh;
-    height: 8vh;
-  }
-
-  /* Navbar text */
-  .navBarFont {
-    font-family: "Staatliches", cursive;
-    font-size: 2rem;
-    color: white !important;
-    margin-left: 43px;
-  }
-  
-  .videoTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 3rem;
-    color: white;
-    opacity: 100% !important;
-  }
-
-  .whiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.75rem;
-  }
-  
-  .ContactUsWhiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.75rem;
-  }
-  
-  .whiteTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 2.25rem;
-    color: white;
-  }
-  
-  .blackTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 2.25rem;
-    color: black;
-  }
-  
-  .blackText {
-    font-family: "Raleway", sans-serif;
-    color: black;
-    font-size: 1.75rem;
-  }
-
-}
-
-
-/* @1144px Order now breaks and stacks on itself! */
-@media screen and (max-width: 1100px){
-  .smallNavbarLogo{
-    height: 100px;
-    width: 140px;
-  }
-
-  #pizzaGif {
-    background-image: url(../images/PizzaLoopExperiment.gif);
-    width: 100%;
-    height: 100vh;
-    /* background-position: left; */
-  }
-
-  .marginTop {
-    margin-top: 25%;
-  }
-
-  .navbar-light .navbar-toggler-icon{
-    background-image: url(../images/togglerIconBg.png) !important;
-    width: 8vh;
-    height: 8vh;
-  }
-
-  .navBarFont {
-    font-family: "Staatliches", cursive;
-    font-size: 2rem;
-    color: white !important;
-    margin-left: 43px;
-  }
-  
-  .videoTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 3rem;
-    color: white;
-    opacity: 100% !important;
-  }
-
-  .whiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.75rem;
-  }
-  
-  .ContactUsWhiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.75rem;
-  }
-  
-  .whiteTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 2.25rem;
-    color: white;
-  }
-  
-  .blackTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 2.25rem;
-    color: black;
-  }
-  
-  .blackText {
-    font-family: "Raleway", sans-serif;
-    color: black;
-    font-size: 1.75rem;
-  }
-
-}
+/* Jesse's media querries^ */

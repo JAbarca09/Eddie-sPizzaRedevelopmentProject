@@ -378,6 +378,10 @@ body {
     margin-right: 5%;
 } */
 
+.menuRightPadding {
+    margin-right: 5%;
+}
+
 ul li a:hover, ul li a:focus {
     color:#D61A3F !important;
 }

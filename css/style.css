@@ -225,3 +225,29 @@ body{
         font-size: 1.8rem;
     }
 }
+
+/* smol phones */
+@media screen and (max-width: 350px){
+    .locationsHeader{
+        font-size: 1.1rem;
+        /* line-height: 100%; */
+    }
+
+    .locationsTxt{
+        font-size: 0.8rem;
+        line-height: 5%;
+    }
+    .footerTxt{
+        font-size: 0.7rem;
+        line-height: 80%;
+
+    }
+
+    .footerHeader{
+        font-size: 1rem;
+    }
+
+    .eventsHeader{
+        font-size: 1.8rem;
+    }
+}

@@ -187,10 +187,15 @@ body {
   border: none;
   border-radius: 25px;
   font-family: "Raleway", sans-serif;
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 0.9rem;
   font-weight: bold;
   /* margin-bottom: 0px; */
+}
+
+a{
+  text-decoration: none !important;
+  color: #ffffff !important;
 }
 
 .greenLine {
@@ -1001,6 +1006,7 @@ ul li a:hover, ul li a:focus {
     .quotesTxt{
         font-size: 1.3rem;
     }
+}
 
 }
 /* smol phones */

@@ -1001,7 +1001,7 @@ ul li a:hover, ul li a:focus {
     .quotesTxt{
         font-size: 1.3rem;
     }
-}
+
 
 /* smol phones */
 @media screen and (max-width: 350px){

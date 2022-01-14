@@ -117,6 +117,14 @@ body{
     font-size: 2rem;
 }
 
+.eventsHeader2{
+    font-family: 'Staatliches', cursive;
+    color: #D61A3F;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .eventsTxt{
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
@@ -201,17 +209,35 @@ body{
     .eventsHeader{
         font-size: 1.8rem;
     }
+
+    .eventsHeader2{
+    font-size: 1.3rem;
+    }
+
+    .offeringsTxt{
+        font-size: 0.8rem;
+    }
+    .quotesTxt{
+        font-size: 1.4rem;
+    }
 }
 /* iphone x */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 425px){
     .locationsHeader{
-        font-size: 1.1rem;
-        /* line-height: 100%; */
+        font-size: 1rem;
+    }
+
+    .locationsbtn{
+        font-size: 0.75rem;
+        font-weight: normal;
+    }
+
+    .locationsRow{
+        align-items: flex-end;
     }
 
     .locationsTxt{
-        font-size: 0.8rem;
-        line-height: 5%;
+        font-size: 0.7rem;
     }
     .footerTxt{
         font-size: 0.7rem;
@@ -223,31 +249,57 @@ body{
 
     .eventsHeader{
         font-size: 1.8rem;
+    }
+
+    .eventsTxt{
+        font-size: 0.8rem;
+    }
+
+    .quotesTxt{
+        font-size: 1.3rem;
     }
 }
 
 /* smol phones */
 @media screen and (max-width: 350px){
     .locationsHeader{
-        font-size: 1.1rem;
-        /* line-height: 100%; */
+        font-size: 0.84rem;
     }
 
+    .locationsbtn{
+        font-size: 0.58rem;
+        font-weight: normal;
+    }
+    
+    .locationsRow{
+        align-items: flex-end;
+    }
     .locationsTxt{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         line-height: 5%;
     }
     .footerTxt{
         font-size: 0.7rem;
         line-height: 80%;
-
-    }
-
-    .footerHeader{
-        font-size: 1rem;
     }
 
     .eventsHeader{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+    }
+
+    .eventsHeader2{
+        font-size: 1.1rem;
+        }
+
+    .eventsTxt{
+        font-size: 0.75rem;
+    }
+
+    .offeringsTxt{
+        font-size: 0.75rem;
+    }
+
+    .quotesTxt{
+        font-size: 1.2rem;
     }
 }

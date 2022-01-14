@@ -14,7 +14,7 @@
 /* Navigation Bar Styling */
 .navBarFont {
   font-family: "Staatliches", cursive;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: white !important;
   padding-right: 40px !important;
   padding-left: 40px !important;
@@ -159,6 +159,17 @@
 
 body {
   background-color: black;
+}
+
+/* --------- FONTS SETUP---------------- */
+@font-face{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face{
+    font-family: 'Staatliches';
+    src: url('../fonts/Staatliches-Regular.ttf');
 }
 
 /* --------- LOCATIONS STYLING -------- */
@@ -396,7 +407,7 @@ ul li a:hover, ul li a:focus {
   font-size: 1.2rem;
   line-height: 1%;
 }
-/* ======= */
+
 .footerHeader{
     color: #D61A3F;
     font-family: 'Staatliches', cursive;
@@ -442,6 +453,14 @@ ul li a:hover, ul li a:focus {
     color: #ffffff;
     font-family: 'Staatliches', cursive;
     font-size: 2rem;
+}
+
+.eventsHeader2{
+    font-family: 'Staatliches', cursive;
+    color: #D61A3F;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .eventsTxt{
@@ -564,16 +583,36 @@ ul li a:hover, ul li a:focus {
     .eventsHeader{
         font-size: 1.8rem;
     }
+
+    .eventsHeader2{
+    font-size: 1.3rem;
+    }
+
+    .offeringsTxt{
+        font-size: 0.8rem;
+    }
+    .quotesTxt{
+        font-size: 1.4rem;
+    }
 }
 /* iphone x */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 425px){
     .locationsHeader{
         font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    .locationsbtn{
+        font-size: 0.75rem;
+        font-weight: normal;
+    }
+
+    .locationsRow{
+        align-items: flex-end;
     }
 
     .locationsTxt{
-        font-size: 0.8rem;
-        line-height: 5%;
+        font-size: 0.7rem;
     }
     .footerTxt{
         font-size: 0.7rem;
@@ -954,3 +993,56 @@ ul li a:hover, ul li a:focus {
 
 }
 /* Jesse's media querries^ */
+
+    .eventsTxt{
+        font-size: 0.8rem;
+    }
+
+    .quotesTxt{
+        font-size: 1.3rem;
+    }
+}
+
+/* smol phones */
+@media screen and (max-width: 350px){
+    .locationsHeader{
+        font-size: 0.84rem;
+    }
+
+    .locationsbtn{
+        font-size: 0.58rem;
+        font-weight: normal;
+    }
+    
+    .locationsRow{
+        align-items: flex-end;
+    }
+    .locationsTxt{
+        font-size: 0.6rem;
+        line-height: 5%;
+    }
+    .footerTxt{
+        font-size: 0.7rem;
+        line-height: 80%;
+    }
+
+    .eventsHeader{
+        font-size: 1.6rem;
+    }
+
+    .eventsHeader2{
+        font-size: 1.1rem;
+        }
+
+    .eventsTxt{
+        font-size: 0.75rem;
+    }
+
+    .offeringsTxt{
+        font-size: 0.75rem;
+    }
+
+    .quotesTxt{
+        font-size: 1.2rem;
+    }
+}

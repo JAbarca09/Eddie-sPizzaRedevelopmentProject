@@ -232,6 +232,158 @@ body {
   line-height: 80%;
 }
 
+/* ----------MENU STYLING---------- */
+.menuImg{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+.menuImgCol {
+    background-image: url('../images/chad-montano-MqT0asuoIcU-unsplash.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-right: 3%;
+}
+
+.menuImgCol2 {
+    background-image: url('../images/chad-montano-MqT0asuoIcU-unsplash.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 3%;
+}
+
+.typeOfFoodTitle {
+    color: white;
+    font-family: 'Staatliches', Regular;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1;
+}
+
+.typeOfFoodTitleXS {
+    color: white;
+    font-family: 'Staatliches', Regular;
+    font-size: 45px;
+    text-align: center;
+    line-height: 1;
+}
+
+.foodDescriptionTitle {
+    color: white;
+    font-family: 'Staatliches', Regular;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1;
+}
+
+.foodDescriptionTitleXS {
+    color: white;
+    font-family: 'Staatliches', Regular;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1;
+}
+
+.typeOfFoodTxt {
+    color: white;
+    font-family: 'Staatliches', Regular;
+    font-size: 35px;
+    text-align: left;
+    line-height: 1;
+    margin-top: 5%;
+}
+
+.menuTxt{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 1rem;
+    /* line-height: 30%; */
+}
+
+.menuImgColXS {
+    background-image: url('../images/chad-montano-MqT0asuoIcU-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    /* max-height: 40%; */
+}
+
+.menuImgXS{
+    max-height: 170px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.menuImgColXS2 {
+    background-image: url('../images/tim-toomey-STqHLqMne3k-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    /* max-height: 40%; */
+    margin-top: 5%;
+}
+
+.menuImgXS2 {
+    max-height: 170px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.menuBarTitle {
+    color: white !important;
+    font-family: 'Staatliches', Regular;
+    font-size: 40px;
+    text-align: center;
+    /* line-height: 1; */
+    text-decoration: underline;
+}
+
+.menuBarOptions {
+    color: white !important;
+    font-family: 'Staatliches', Regular;
+    font-size: 30px;
+    text-align: center;
+    /* line-height: 1; */
+    text-decoration: none;
+    /* margin-right: 5%; */
+}
+
+.menuBarOptionsXS {
+    color: white !important;
+    font-family: 'Staatliches', Regular;
+    font-size: 24px;
+    text-align: center;
+    /* line-height: 1; */
+    text-decoration: none;
+}
+
+li:not(:last-child) {
+    margin-right: 5%;
+}
+
+ul li a:hover, ul li a:focus {
+    color:#D61A3F !important;
+}
+
+/* .positionFixed {
+    position: fixed;
+} */
+
+.fixedBlackBg {
+    background-color: black;
+    padding-bottom: 1%;
+}
+
+.moveUnderMenu {
+    padding-top: 10%;
+}
+
 /* --------- FOOOTER STYLING---------- */
 /* <<<<<<< HEAD */
 .footerHeader {
@@ -244,7 +396,7 @@ body {
 .footerHeader{
     color: #D61A3F;
     font-family: 'Staatliches', cursive;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1%;
 }
 

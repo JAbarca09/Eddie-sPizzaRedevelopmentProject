@@ -21,9 +21,55 @@
     <div class="container-fluid d-none d-sm-block">
       <!----------NAVBAR GOES HERE-->
       <div class="row">
-        <div class="col-12 whiteBg">
-          <h1>Nav bar here</h1>
-        </div>
+        <div class="col-12"> <!-- First navigation bar for larger screen sizes! -->
+          <!-- Navigaton Bar-->
+          <nav class="navbar navbar-expand-lg navbar-light d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="../images/Eddie'sPizzaLogo.png" class="firstNavBarLogo" alt="Logo of Eddie's Pizza!">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-auto align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" aria-current="page" href="./pages/menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navBarFont largeNavBar m-0  mx-xl-5 mx-xxl-5" href="./pages/locations.html">Locations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./pages/events.html">Catering</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./pages/menu.html">Order Now</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Second navigation bar begins appears when screen is small!-->
+          <nav class="navbar navbar-expand-lg navbar-light navBarBg bg-light d-xxl-none d-xl-none d-xxl-block d-lg-none d-xl-block">
+            <div class="container-fluid reverse-nav">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./images/Eddie'sPizzaLogo.png" class="smallNavbarLogo" alt="Logo of Eddie's Pizza!">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active smallNavBarFont" aria-current="page" href="./pages/menu.html">Menu</a>
+                <a class="nav-link smallNavBarFont" href="./pages/locations.html">Locations</a>
+                <a class="nav-link smallNavBarFont" href="./pages/events.html">Catering</a>
+                <a class="nav-link smallNavBarFont" href="./pages/events.html">Order Now</a>
+              </div>
+            </div>
+          </nav>
+        </div><!-- Closing of my navigation bar -->
       </div>
       <!----------MENU BAR GOES HERE-->
       <div class="div sticky-top fixedBlackBg">

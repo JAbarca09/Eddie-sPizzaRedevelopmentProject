@@ -14,7 +14,7 @@
 /* Navigation Bar Styling */
 .navBarFont {
   font-family: "Staatliches", cursive;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: white !important;
   padding-right: 40px !important;
   padding-left: 40px !important;
@@ -374,7 +374,11 @@ body {
     text-decoration: none;
 }
 
-li:not(:last-child) {
+/* li:not(:last-child) {
+    margin-right: 5%;
+} */
+
+.menuRightPadding {
     margin-right: 5%;
 }
 
@@ -403,7 +407,7 @@ ul li a:hover, ul li a:focus {
   font-size: 1.2rem;
   line-height: 1%;
 }
-/* ======= */
+
 .footerHeader{
     color: #D61A3F;
     font-family: 'Staatliches', cursive;
@@ -997,7 +1001,7 @@ ul li a:hover, ul li a:focus {
     .quotesTxt{
         font-size: 1.3rem;
     }
-}
+
 
 /* smol phones */
 @media screen and (max-width: 350px){

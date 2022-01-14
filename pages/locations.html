@@ -20,7 +20,58 @@
   <body>
     <div class="container-fluid">
       <!----------NAVBAR GOES HERE-->
-      <div class="row mt-5">
+      <div class="row">
+        <div class="col-12"> <!-- First navigation bar for larger screen sizes! -->
+          <!-- Navigaton Bar-->
+          <nav class="navbar navbar-expand-lg navbar-light d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="">
+                <img src="../images/Eddie'sPizzaLogo.png" class="firstNavBarLogo" alt="Logo of Eddie's Pizza!">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-auto align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" aria-current="page" href="./menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navBarFont largeNavBar m-0  mx-xl-5 mx-xxl-5" href="./locations.html">Locations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./events.html">Catering</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./locations.html">Order Now</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Second navigation bar begins appears when screen is small!-->
+          <nav class="navbar navbar-expand-lg navbar-light navBarBg bg-light d-xxl-none d-xl-none d-xxl-block d-lg-none d-xl-block">
+            <div class="container-fluid reverse-nav">
+              <a class="navbar-brand" href="">
+                <img src="../images/Eddie'sPizzaLogo.png" class="smallNavbarLogo" alt="Logo of Eddie's Pizza!">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active smallNavBarFont" aria-current="page" href="./menu.html">Menu</a>
+                <a class="nav-link smallNavBarFont" href="./locations.html">Locations</a>
+                <a class="nav-link smallNavBarFont" href="./events.html">Catering</a>
+                <a class="nav-link smallNavBarFont" href="./locations.html">Order Now</a>
+              </div>
+            </div>
+          </nav>
+        </div><!-- Closing of my navigation bar -->
+      </div>
+      <div class="row mt-3">
         <!-- column of locations -->
         <div class="col-lg-6 col-sm-12 order-lg-1 order-2">
           <div class="container">
@@ -29,7 +80,7 @@
                     <p class="locationsHeader ">Marina Shopping Center</p>
               </div>
               <div class="col-lg-5 col-md-4 col-6 text-end">
-                    <button type="button" class="locationsbtn mt-1 mb-md-0 mb-1">Order from this location</button>
+                    <button type="button" class="locationsbtn mt-1 mb-md-0 mb-1"><a href="https://eddiespizza.adorapos.net/?id=KBX2V">Order from this location</a></button>
               </div>
               <div class="greenLine"></div>
               <div class="col-12 locationsTxt mt-3">
@@ -43,7 +94,7 @@
                     <p class="locationsHeader mb-0">Kathleen Shopping Plaza</p>
               </div>
               <div class="col-lg-5 col-md-4 col-6 text-end">
-                    <button type="button" class="locationsbtn mt-1 mb-md-0 mb-1">Order from this location</button>
+                    <button type="button" class="locationsbtn mt-1 mb-md-0 mb-1"><a href="https://eddiespizza.adorapos.net/?id=N225C">Order from this location</a></button>
               </div>
               <div class="greenLine"></div>
               <div class="col-12 locationsTxt mt-3">
@@ -57,7 +108,7 @@
                     <p class="locationsHeader mb-0">Waterloo Shopping Center</p>
               </div>
               <div class="col-lg-5 col-md-4 col-6 text-end">
-                    <button type="button" class="locationsbtn mt-1 mb-md-0 mb-1">Order from this location</button>
+                    <button type="button" class="locationsbtn mt-1 mb-md-0 mb-1"><a href="https://eddiespizza.adorapos.net/?id=89XSW">Order from this location</a></button>
               </div>
               <div class="greenLine"></div>
               <div class="col-12 locationsTxt mt-3">
@@ -71,7 +122,7 @@
                     <p class="locationsHeader mb-0">El Dorado Plaza</p>
               </div>
               <div class="col-lg-5 col-md-4 col-sm-6 col-6 text-end">
-                    <button type="button" class="locationsbtn mt-md-1 mb-md-0 mb-1">Order from this location</button>
+                    <button type="button" class="locationsbtn mt-md-1 mb-md-0 mb-1"><a href="https://eddiespizza.adorapos.net/?id=JS1P2">Order from this location</a></button>
               </div>
               <div class="greenLine"></div>
               <div class="col-12 locationsTxt mt-3">

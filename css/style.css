@@ -363,7 +363,11 @@ body {
     text-decoration: none;
 }
 
-li:not(:last-child) {
+/* li:not(:last-child) {
+    margin-right: 5%;
+} */
+
+.menuRightPadding {
     margin-right: 5%;
 }
 

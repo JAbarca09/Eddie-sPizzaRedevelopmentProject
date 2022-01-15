@@ -1,2 +1,3 @@
 # Eddie-sPizzaRedevelopmentProject
-Redesigning and creating a new website for the establishment known as "Eddie's Pizza".
+Bussiness redevelopment website for Eddie's Pizza.
+Contributors include: Dylan McFarlin, Sophie Espejo, and Jesse Abarca.

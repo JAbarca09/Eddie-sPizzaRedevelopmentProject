@@ -1,1186 +1,1353 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Staatliches&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Staatliches&display=swap" rel="stylesheet">
 
 
-    <title>Locations</title>
-  </head>
-  <body>
-    <div class="container-fluid d-none d-sm-block">
-      <!----------NAVBAR GOES HERE-->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+
+
+  <title>Locations</title>
+</head>
+
+<body>
+  <div class="container-fluid d-none d-sm-block">
+    <!----------NAVBAR GOES HERE-->
+    <div class="row">
+      <div class="col-12">
+        <!-- First navigation bar for larger screen sizes! -->
+        <!-- Navigaton Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../images/Eddie'sPizzaLogo.png" class="firstNavBarLogo" alt="Logo of Eddie's Pizza!">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
+              <ul class="navbar-nav ms-auto me-auto align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active navBarFont largeNavBar m-0" aria-current="page" href="./menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navBarFont largeNavBar m-0  mx-xl-5 mx-xxl-5" href="./locations.html">Locations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navBarFont largeNavBar m-0" href="./events.html">Catering</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./locations.html">Order Now</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Second navigation bar begins appears when screen is small!-->
+        <nav
+          class="navbar navbar-expand-lg navbar-light navBarBg bg-light d-xxl-none d-xl-none d-xxl-block d-lg-none d-xl-block">
+          <div class="container-fluid reverse-nav">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../images/Eddie'sPizzaLogo.png" class="smallNavbarLogo" alt="Logo of Eddie's Pizza!">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active smallNavBarFont" aria-current="page" href="./menu.html">Menu</a>
+              <a class="nav-link smallNavBarFont" href="./locations.html">Locations</a>
+              <a class="nav-link smallNavBarFont" href="./events.html">Catering</a>
+              <a class="nav-link smallNavBarFont" href="./locations.html">Order Now</a>
+            </div>
+          </div>
+        </nav>
+      </div><!-- Closing of my navigation bar -->
+    </div>
+    <!----------MENU BAR GOES HERE-->
+    <div class="div sticky-top fixedBlackBg">
+      <div class="row menuBarTitle">
+        <a class="nav-link menuBarTitle" href="">
+          <p class="">Menu</p>
+        </a>
+      </div>
       <div class="row">
-        <div class="col-12"> <!-- First navigation bar for larger screen sizes! -->
-          <!-- Navigaton Bar-->
-          <nav class="navbar navbar-expand-lg navbar-light d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">
-                <img src="../images/Eddie'sPizzaLogo.png" class="firstNavBarLogo" alt="Logo of Eddie's Pizza!">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
-                <ul class="navbar-nav ms-auto me-auto align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link active navBarFont largeNavBar m-0" aria-current="page" href="./menu.html">Menu</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navBarFont largeNavBar m-0  mx-xl-5 mx-xxl-5" href="./locations.html">Locations</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navBarFont largeNavBar m-0" href="./events.html">Catering</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./locations.html">Order Now</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <!-- Second navigation bar begins appears when screen is small!-->
-          <nav class="navbar navbar-expand-lg navbar-light navBarBg bg-light d-xxl-none d-xl-none d-xxl-block d-lg-none d-xl-block">
-            <div class="container-fluid reverse-nav">
-              <a class="navbar-brand" href="../index.html">
-                <img src="../images/Eddie'sPizzaLogo.png" class="smallNavbarLogo" alt="Logo of Eddie's Pizza!">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active smallNavBarFont" aria-current="page" href="./menu.html">Menu</a>
-                <a class="nav-link smallNavBarFont" href="./locations.html">Locations</a>
-                <a class="nav-link smallNavBarFont" href="./events.html">Catering</a>
-                <a class="nav-link smallNavBarFont" href="./locations.html">Order Now</a>
-              </div>
-            </div>
-          </nav>
-        </div><!-- Closing of my navigation bar -->
-      </div>
-      <!----------MENU BAR GOES HERE-->
-      <div class="div sticky-top fixedBlackBg">
-        <div class="row menuBarTitle">
-          <a class="nav-link menuBarTitle" href="">
-            <p class="">Menu</p>
-          </a>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <ul class="nav justify-content-center">
-              <li>
-                <a class="nav-link menuBarOptions" href="#goToGourmetPizza">GOURMET PIZZAS</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptions" href="#goToEddiesFavorites">EDDIE'S FAVORITES</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptions" href="#goToSpecialtyPizza">SPECIALTY PIZZAS</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <ul class="nav justify-content-center">
-              <li>
-                <a class="nav-link menuBarOptions" href="#goToAppetizers">APPETIZERS</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptions" href="#goToSoupsAndSalads">SOUPS AND SALADS</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptions" href="#goToSandwiches">SANDWICHES</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptions" href="#goToPasta">PASTA</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptions" href="#goToDailyLunchSpecials">DAILY LUNCH SPECIALS</a>
-              </li>
-            </ul>
-          </div>
+        <div class="col-12">
+          <ul class="nav justify-content-center">
+            <li>
+              <a class="nav-link menuBarOptions" href="#goToGourmetPizza">GOURMET PIZZAS</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptions" href="#goToEddiesFavorites">EDDIE'S FAVORITES</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptions" href="#goToSpecialtyPizza">SPECIALTY PIZZAS</a>
+            </li>
+          </ul>
         </div>
       </div>
-
-
-      <div id="goToGourmetPizza" class="row">
-        <!-- column of picture -->
-        <div class="col-6">
-          <div class="menuImgCol d-flex">
-            <img src="../images/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="" class="img-fluid mx-auto d-block menuImg" >
-          </div>
-        </div><!-----END COLUMN OF PICTURE-->
-        <!-- column of locations -->
-        <div class="col-6">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <p class="typeOfFoodTitle">PIZZA</p>
-                <p class="foodDescriptionTitle">Personal - 7” Pizza for two - 10” Large 14” Family - 16” Big Ed - 24”</p>
-                <p class="typeOfFoodTxt">GOURMET PIZZAS</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Famous Combination Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Pepperoni, Italian Sausage, Mushrooms, Ham, Bell Peppers, Onions, Black Olives, Linguica, Dry Italian Salami, Pepperoni</p>
-              </div>
-            </div><!-----END OF MENU FIRST ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Chicken Club Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served With Our Rich Garlic Ranch, White Chicken Chunks, Bacon, Diced Tomatoes, Diced Tomatoes, Topped With Slivers Of Red Onions</p>
-              </div>
-            </div><!-----END OF MENU SECOND ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">BBQ Chicken Delight</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Smothered With Our Famous BBQ Sauce, White Chicken Chunks, Bacon, Topped With Pineapple Chunks</p>
-              </div>
-            </div><!-----END OF MENU THIRD ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Totally Vegetarian Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Mushrooms, Bell Peppers, Onions, Black Olives, Fresh or Cooked Tomatoes, Artichokes, Fresh Sprouts</p>
-              </div>
-            </div><!-----END OF MENU FOURTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">BBQ Chicken Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Tender White Chicken Chunks, Smothered In Our Famous BBQ Sauce, Topped With Slivers of Red Onions and Cilantro</p>
-              </div>
-            </div><!-----END OF MENU FIFTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Pesto Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Basil Pesto Sauce Topped With: Our Famous Three Cheese Blend, Sauteed Mushrooms With a Dash of White  and Fresh Tomatoes</p>
-              </div>
-            </div><!-----END OF MENU SIXTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p id="goToEddiesFavorites" class="locationsHeader ">Chipotle Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Chipotle Sauce Topped With: Ground Beef, Black Olives, Red Onions, Cilantro, Fresh Tomatoes</p>
-              </div>
-            </div><!-----END OF MENU SEVENTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Meat Supreme Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Italian Garlic Sausage, Ground Beef, Salami, Pepperoni, Ham, Linguica, A Tasty Way To Eat An All Meat Eddie’s Pizza!</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p class="typeOfFoodTxt">EDDIE'S FAVORITES</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Hawaiian Delight</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>One Of Our Most Popular Pizzas! Generous Slices Of Ham And Chunks of Pineapple - Great For All Ages!</p>
-              </div>
-            </div><!-----END OF MENU FIRST ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Super Pepperoni</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Can’t Get Enough Pepperoni? Twice the Pepperoni - Twice the Taste</p>
-              </div>
-            </div><!-----END OF MENU SECOND ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p id="goToSpecialtyPizza" class="locationsHeader ">Garlic Ranch Chicken Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served With Creamy Garlic Ranch Sauce Topped With White Chicken Chunks</p>
-              </div>
-            </div><!-----END OF MENU THIRD ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Pepper Rings Pizzas</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served With Eddie’s Famous Pizza Sauce, Pepperoni, Pepper Rings With Eddie’s Famous Three Cheese Blend</p>
-              </div>
-            </div><!-----END OF MENU FOURTH ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p class="typeOfFoodTxt">SPECIALTY PIZZA</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Gourmet Steak Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served Sauteed Style With: Our Newest Spicy Garlic Ranch Sauce (Or Choice of Spicy BBQ Sauce) Topped With: Generous Portions Of Tenderloin Steak Strips, Mushrooms, Bell Peppers, Red Onions</p>
-              </div>
-            </div><!-----END OF MENU FIFTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p id="goToAppetizers" class="locationsHeader ">Picante Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Delicious Picante Sauce, Chicken, Diced Onions, Diced Tomatoes, Jalapeños</p>
-              </div>
-            </div><!-----END OF MENU SIXTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Mexicana Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served With Our Famous Pizza Sauce, Diced Onions, Diced Bell Peppers, Jalapeños, Chorizo</p>
-              </div>
-            </div><!-----END OF MENU SEVENTH ROW-->
-          </div><!-----END OF CONTAINER-->
-        </div><!------END COLUMN OF LOCATIONS-->
-      </div> <!-----END OF ROW WITH 2 COLUMNS: LOCATIONS AND PIC-->
-
-
-
-
-      <div class="row mt-5">
-        <!-- column of locations -->
-        <div class="col-6">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <p class="typeOfFoodTitle">NOT IN THE MOOD FOR PIZZA?</p>
-                <p class="typeOfFoodTxt">APPETIZERS</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Garlic Bread Twist</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Toasty Hot Garlic Bread, Covered With Our Pizza Cheeses, Served With Spaghetti Sauce Or Ranch Dressing For Dipping</p>
-              </div>
-            </div><!-----END OF MENU FIRST ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Cheesy Garlic Bread</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Toasty Hot Garlic Bread, Covered With Our Pizza Cheeses, Served With Spaghetti Sauce Or Ranch Dressing For Dipping</p>
-              </div>
-            </div><!-----END OF MENU SECOND ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Tasty Wedge Potatoes</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Breaded In Our Special Seasonings Then Oven Baked To Perfection</p>
-              </div>
-            </div><!-----END OF MENU THIRD ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">WINGS</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Your Choice Of Spicy Buffalo Or BBQ Wings</p>
-              </div>
-            </div><!-----END OF MENU FOURTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Popcorn Chicken</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions of Popcorn Chicken Nuggets That Is Great For All Ages</p>
-              </div>
-            </div><!-----END OF MENU FIFTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p id="goToSoupsAndSalads" class="locationsHeader ">Chicken finger basket</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Tasty Breaded And Tender Chicken Fingers Served With Your Choice Of Our Famous Ranch Or BBQ Sauce</p>
-              </div>
-            </div><!-----END OF MENU SIXTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Sampler Platter</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions Of Spicy & BBQ Wings, Popcorn Chicken, Wedges, Served With Eddie’s Famous Ranch Sauce</p>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <p class="typeOfFoodTxt">SOUPS AND SALADS</p>
-                </div>
-              </div>
-            </div><!-----END OF MENU SEVENTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Fresh Garden Salad</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>All Salads Are Made Fresh Daily And Served With Your Choice Of Dressing</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p id="goToSandwiches" class="locationsHeader ">SOUP AND SALAD COMBO</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>All Salads Are Made Fresh Daily And Served With Your Choice Of Dressing</p>
-              </div>
-            </div><!-----END OF MENU FIRST ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s specialty Salads</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Choose Any One Of Our Famous Eddie’s Salads: Chef’s, Vegetarian, Chicken Caesar</p>
-              </div>
-            </div><!-----END OF MENU SECOND ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p class="typeOfFoodTxt">SANDWICHES</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Ham Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Prepared With: Mayonnaise Mustard Lettuce Tomato Pickle Chips Your Choice Of American Or Swiss Cheese On A Steak Roll</p>
-              </div>
-            </div><!-----END OF MENU THIRD ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">BBQ Beef Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Lean Roast Beef Drenched In A Medium BBQ Sauce</p>
-              </div>
-            </div><!-----END OF MENU FOURTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">French Dip Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>One Of Our Best Values! Lean Roast Beef Served On A Steak Roll With Hot Au Jus Sauce</p>
-              </div>
-            </div><!-----END OF MENU FIFTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Philly Steak Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Cooked Sauteed Style Of Tenderloin Strip Steak Onions Bell Peppers Topped With Our Famous Three Cheese Blend</p>
-              </div>
-            </div><!-----END OF MENU SIXTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p id="goToPasta" class="locationsHeader ">Chicken Strip Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Oven Baked Chicken Tenders Served On Our Fresh Steak Roll, With Our Famous Ranch Sauce Lettuce Tomatoes Pickles Your Choice Of Swiss Or American Cheese</p>
-              </div>
-            </div><!-----END OF MENU SEVENTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Chicken Pesto Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions Of Chicken Tenders Mushrooms Pesto Our Famous Three Cheese Blend Served with Our Tasty Wedge Potatoes</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p class="typeOfFoodTxt">PASTA</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Lasagna</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Lasagna Smothered With Our Homemade Meat Sauce And Garlic Bread</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Italian Spaghetti Pasta</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Spaghetti Smothered With Our Homemade Meat Sauce And Garlic Bread</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Pesto Pasta</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions Of Tender Chicken Chunks Mushrooms Pesto Served Over A Bed Of Pasta And Garlic Bread</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Alfredo Pasta</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions Of Tender White Chicken Chunks Mushrooms Our Rich Flavored Alfred Sauce Served Over A Plentiful Bed of Pasta Sprinkled With Basil Leaves And Garlic Bread</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p id="goToDailyLunchSpecials" class="typeOfFoodTxt">DAILY LUNCH SPECIALS</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 mb-0">
-                    <p class="locationsHeader ">Personal Two Topping Pizza, Fresh Garden Salad and Soda</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Personal Two Topping Pizza, Fresh Garden Salad, Soda</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12 mb-0">
-                    <p class="locationsHeader ">Soup, Fresh garden salad, garlic bread twist and soda</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Soup, Fresh Garden Salad, Garlic Bread Twist, Soda</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12 mb-0">
-                    <p class="locationsHeader ">Choice of Chef, chicken caesar, or veggie salad, twist and soda</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Your Choice Of Chef, Chicken Cesar, Or Vegetarian Salad, Bread Twist, Soda</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-          </div><!-----END OF CONTAINER-->
-        </div><!------END COLUMN OF LOCATIONS-->
-        <!-- column of picture -->
-        <div class="col-6">
-          <div class="menuImgCol2 d-flex">
-            <img src="../images/tim-toomey-STqHLqMne3k-unsplash.jpg" alt="" class="img-fluid mx-auto d-block menuImg" >
-          </div>
-        </div><!-----END COLUMN OF PICTURE-->
-      </div> <!-----END OF ROW WITH 2 COLUMNS: LOCATIONS AND PIC-->
-
-      <div class="row justify-content-center text-center mt-5">
-        <div class="col-12 quotesCol quotesTxt mt-5">
-          <p class="quotesTxt">"Every pizza is a personal pizza if you try hard and believe in yourself."
-          </p>
-          <p> - Bill Murray</p>
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav justify-content-center">
+            <li>
+              <a class="nav-link menuBarOptions" href="#goToAppetizers">APPETIZERS</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptions" href="#goToSoupsAndSalads">SOUPS AND SALADS</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptions" href="#goToSandwiches">SANDWICHES</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptions" href="#goToPasta">PASTA</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptions" href="#goToDailyLunchSpecials">DAILY LUNCH SPECIALS</a>
+            </li>
+          </ul>
         </div>
-      </div><!------END OF QUOTES ROW------>
-      <div class="row justify-content-evenly mt-lg-5 mt-3"><!-------START OF FOOTER------>
-        <div class="col-md-2 col-4 text-center">
-          <p class="footerHeader">Follow Us</p>
-          <div class="footerLine"></div>
-          <div class="iconRow mt-md-2">
-            <button class="btn iconBtn"><a href="https://www.facebook.com/eddiespizza1/" target="_blank">
+      </div>
+    </div>
+
+
+    <div id="goToGourmetPizza" class="row">
+      <!-- column of picture -->
+      <div class="col-6">
+        <div class="menuImgCol d-flex">
+          <img src="../images/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="" class="img-fluid mx-auto d-block menuImg">
+        </div>
+      </div>
+      <!-----END COLUMN OF PICTURE-->
+      <!-- column of locations -->
+      <div class="col-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="typeOfFoodTitle">PIZZA</p>
+              <p class="foodDescriptionTitle">Personal - 7” Pizza for two - 10” Large 14” Family - 16” Big Ed - 24”</p>
+              <p class="typeOfFoodTxt">GOURMET PIZZAS</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Famous Combination Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Pepperoni, Italian Sausage, Mushrooms, Ham, Bell Peppers, Onions, Black Olives, Linguica, Dry Italian
+                Salami, Pepperoni</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIRST ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Chicken Club Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served With Our Rich Garlic Ranch, White Chicken Chunks, Bacon, Diced Tomatoes, Diced Tomatoes, Topped
+                With Slivers Of Red Onions</p>
+            </div>
+          </div>
+          <!-----END OF MENU SECOND ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">BBQ Chicken Delight</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Smothered With Our Famous BBQ Sauce, White Chicken Chunks, Bacon, Topped With Pineapple Chunks</p>
+            </div>
+          </div>
+          <!-----END OF MENU THIRD ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Totally Vegetarian Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Mushrooms, Bell Peppers, Onions, Black Olives, Fresh or Cooked Tomatoes, Artichokes, Fresh Sprouts</p>
+            </div>
+          </div>
+          <!-----END OF MENU FOURTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">BBQ Chicken Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Tender White Chicken Chunks, Smothered In Our Famous BBQ Sauce, Topped With Slivers of Red Onions and
+                Cilantro</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIFTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Pesto Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Basil Pesto Sauce Topped With: Our Famous Three Cheese Blend, Sauteed Mushrooms With a Dash of White
+                and Fresh Tomatoes</p>
+            </div>
+          </div>
+          <!-----END OF MENU SIXTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p id="goToEddiesFavorites" class="locationsHeader ">Chipotle Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Chipotle Sauce Topped With: Ground Beef, Black Olives, Red Onions, Cilantro, Fresh Tomatoes</p>
+            </div>
+          </div>
+          <!-----END OF MENU SEVENTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Meat Supreme Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Italian Garlic Sausage, Ground Beef, Salami, Pepperoni, Ham, Linguica, A Tasty Way To Eat An All Meat
+                Eddie’s Pizza!</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p class="typeOfFoodTxt">EDDIE'S FAVORITES</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Hawaiian Delight</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>One Of Our Most Popular Pizzas! Generous Slices Of Ham And Chunks of Pineapple - Great For All Ages!
+              </p>
+            </div>
+          </div>
+          <!-----END OF MENU FIRST ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Super Pepperoni</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Can’t Get Enough Pepperoni? Twice the Pepperoni - Twice the Taste</p>
+            </div>
+          </div>
+          <!-----END OF MENU SECOND ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p id="goToSpecialtyPizza" class="locationsHeader ">Garlic Ranch Chicken Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served With Creamy Garlic Ranch Sauce Topped With White Chicken Chunks</p>
+            </div>
+          </div>
+          <!-----END OF MENU THIRD ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Pepper Rings Pizzas</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served With Eddie’s Famous Pizza Sauce, Pepperoni, Pepper Rings With Eddie’s Famous Three Cheese Blend
+              </p>
+            </div>
+          </div>
+          <!-----END OF MENU FOURTH ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p class="typeOfFoodTxt">SPECIALTY PIZZA</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Gourmet Steak Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served Sauteed Style With: Our Newest Spicy Garlic Ranch Sauce (Or Choice of Spicy BBQ Sauce) Topped
+                With: Generous Portions Of Tenderloin Steak Strips, Mushrooms, Bell Peppers, Red Onions</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIFTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p id="goToAppetizers" class="locationsHeader ">Picante Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Delicious Picante Sauce, Chicken, Diced Onions, Diced Tomatoes, Jalapeños</p>
+            </div>
+          </div>
+          <!-----END OF MENU SIXTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Mexicana Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served With Our Famous Pizza Sauce, Diced Onions, Diced Bell Peppers, Jalapeños, Chorizo</p>
+            </div>
+          </div>
+          <!-----END OF MENU SEVENTH ROW-->
+        </div>
+        <!-----END OF CONTAINER-->
+      </div>
+      <!------END COLUMN OF LOCATIONS-->
+    </div>
+    <!-----END OF ROW WITH 2 COLUMNS: LOCATIONS AND PIC-->
+
+
+
+
+    <div class="row mt-5">
+      <!-- column of locations -->
+      <div class="col-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="typeOfFoodTitle">NOT IN THE MOOD FOR PIZZA?</p>
+              <p class="typeOfFoodTxt">APPETIZERS</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Garlic Bread Twist</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Toasty Hot Garlic Bread, Covered With Our Pizza Cheeses, Served With Spaghetti Sauce Or Ranch Dressing
+                For Dipping</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIRST ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Cheesy Garlic Bread</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Toasty Hot Garlic Bread, Covered With Our Pizza Cheeses, Served With Spaghetti Sauce Or Ranch Dressing
+                For Dipping</p>
+            </div>
+          </div>
+          <!-----END OF MENU SECOND ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Tasty Wedge Potatoes</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Breaded In Our Special Seasonings Then Oven Baked To Perfection</p>
+            </div>
+          </div>
+          <!-----END OF MENU THIRD ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">WINGS</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Your Choice Of Spicy Buffalo Or BBQ Wings</p>
+            </div>
+          </div>
+          <!-----END OF MENU FOURTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Popcorn Chicken</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions of Popcorn Chicken Nuggets That Is Great For All Ages</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIFTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p id="goToSoupsAndSalads" class="locationsHeader ">Chicken finger basket</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Tasty Breaded And Tender Chicken Fingers Served With Your Choice Of Our Famous Ranch Or BBQ Sauce</p>
+            </div>
+          </div>
+          <!-----END OF MENU SIXTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Sampler Platter</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions Of Spicy & BBQ Wings, Popcorn Chicken, Wedges, Served With Eddie’s Famous Ranch Sauce
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p class="typeOfFoodTxt">SOUPS AND SALADS</p>
+              </div>
+            </div>
+          </div>
+          <!-----END OF MENU SEVENTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Fresh Garden Salad</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>All Salads Are Made Fresh Daily And Served With Your Choice Of Dressing</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p id="goToSandwiches" class="locationsHeader ">SOUP AND SALAD COMBO</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>All Salads Are Made Fresh Daily And Served With Your Choice Of Dressing</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIRST ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s specialty Salads</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Choose Any One Of Our Famous Eddie’s Salads: Chef’s, Vegetarian, Chicken Caesar</p>
+            </div>
+          </div>
+          <!-----END OF MENU SECOND ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p class="typeOfFoodTxt">SANDWICHES</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Ham Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Prepared With: Mayonnaise Mustard Lettuce Tomato Pickle Chips Your Choice Of American Or Swiss Cheese
+                On A Steak Roll</p>
+            </div>
+          </div>
+          <!-----END OF MENU THIRD ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">BBQ Beef Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Lean Roast Beef Drenched In A Medium BBQ Sauce</p>
+            </div>
+          </div>
+          <!-----END OF MENU FOURTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">French Dip Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>One Of Our Best Values! Lean Roast Beef Served On A Steak Roll With Hot Au Jus Sauce</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIFTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Philly Steak Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Cooked Sauteed Style Of Tenderloin Strip Steak Onions Bell Peppers Topped With Our Famous Three Cheese
+                Blend</p>
+            </div>
+          </div>
+          <!-----END OF MENU SIXTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p id="goToPasta" class="locationsHeader ">Chicken Strip Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Oven Baked Chicken Tenders Served On Our Fresh Steak Roll, With Our Famous Ranch Sauce Lettuce Tomatoes
+                Pickles Your Choice Of Swiss Or American Cheese</p>
+            </div>
+          </div>
+          <!-----END OF MENU SEVENTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Chicken Pesto Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions Of Chicken Tenders Mushrooms Pesto Our Famous Three Cheese Blend Served with Our
+                Tasty Wedge Potatoes</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p class="typeOfFoodTxt">PASTA</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Lasagna</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Lasagna Smothered With Our Homemade Meat Sauce And Garlic Bread</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Italian Spaghetti Pasta</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Spaghetti Smothered With Our Homemade Meat Sauce And Garlic Bread</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Pesto Pasta</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions Of Tender Chicken Chunks Mushrooms Pesto Served Over A Bed Of Pasta And Garlic Bread
+              </p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Alfredo Pasta</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions Of Tender White Chicken Chunks Mushrooms Our Rich Flavored Alfred Sauce Served Over A
+                Plentiful Bed of Pasta Sprinkled With Basil Leaves And Garlic Bread</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p id="goToDailyLunchSpecials" class="typeOfFoodTxt">DAILY LUNCH SPECIALS</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 mb-0">
+              <p class="locationsHeader ">Personal Two Topping Pizza, Fresh Garden Salad and Soda</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Personal Two Topping Pizza, Fresh Garden Salad, Soda</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12 mb-0">
+              <p class="locationsHeader ">Soup, Fresh garden salad, garlic bread twist and soda</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Soup, Fresh Garden Salad, Garlic Bread Twist, Soda</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12 mb-0">
+              <p class="locationsHeader ">Choice of Chef, chicken caesar, or veggie salad, twist and soda</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Your Choice Of Chef, Chicken Cesar, Or Vegetarian Salad, Bread Twist, Soda</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+        </div>
+        <!-----END OF CONTAINER-->
+      </div>
+      <!------END COLUMN OF LOCATIONS-->
+      <!-- column of picture -->
+      <div class="col-6">
+        <div class="menuImgCol2 d-flex">
+          <img src="../images/tim-toomey-STqHLqMne3k-unsplash.jpg" alt="" class="img-fluid mx-auto d-block menuImg">
+        </div>
+      </div>
+      <!-----END COLUMN OF PICTURE-->
+    </div>
+    <!-----END OF ROW WITH 2 COLUMNS: LOCATIONS AND PIC-->
+
+    <div class="row justify-content-center text-center mt-5">
+      <div class="col-12 quotesCol quotesTxt mt-5">
+        <p class="quotesTxt">"Every pizza is a personal pizza if you try hard and believe in yourself."
+        </p>
+        <p> - Bill Murray</p>
+      </div>
+    </div>
+    <!------END OF QUOTES ROW------>
+    <div class="row justify-content-evenly mt-lg-5 mt-3">
+      <!-------START OF FOOTER------>
+      <div class="col-md-2 col-4 text-center">
+        <p class="footerHeader">Follow Us</p>
+        <div class="footerLine"></div>
+        <div class="iconRow mt-md-2">
+          <button class="btn iconBtn"><a href="https://www.facebook.com/eddiespizza1/" target="_blank">
               <i class="fab fa-facebook"></i></a>
-            </button>
-            <button class="btn iconBtn"><a href="https://www.instagram.com/eddiespizzacafe/?hl=en" target="_blank">
+          </button>
+          <button class="btn iconBtn"><a href="https://www.instagram.com/eddiespizzacafe/?hl=en" target="_blank">
               <i class="fab fa-instagram"></i></a>
-            </button>
-            <button class="btn iconBtn"><a href ="https://www.yelp.com/biz/eddies-pizza-stockton?osq=eddie%27s+pizza" target="_blank">
+          </button>
+          <button class="btn iconBtn"><a href="https://www.yelp.com/biz/eddies-pizza-stockton?osq=eddie%27s+pizza"
+              target="_blank">
               <i class="fab fa-yelp"></i></a>
+          </button>
+        </div>
+      </div>
+      <!------END OF FOLLOW US COL-->
+      <div class="col-md-3 col-sm-4 col-5 text-center p-0">
+        <p class="footerHeader">Hours</p>
+        <div class="footerLine"></div>
+        <p class="footerTxt mt-md-3 mt-2">Sun - Thurs: 10:30AM-9:30PM</p>
+        <p class="footerTxt">Fri - Sat: 10:30AM-10:00PM</p>
+      </div>
+      <div class="col-lg-6 col-md-7 col-11 mt-md-0 mt-3 text-center">
+        <!----END OF HOURS COL-->
+        <p class="footerHeader">Locations </p>
+        <div class="footerLine"></div>
+        <div class="row mt-md-3 mt-2">
+          <div class="col-3 p-0">
+            <p class="footerTxt">3201 W. Ben Holt Dr.</p>
+            <p class="footerTxt">(209)951-4999</p>
+          </div>
+          <div class="col-3 p-0">
+            <p class="footerTxt">1304 E. Hammer Ln.</p>
+            <p class="footerTxt">(209)477-2255</p>
+          </div>
+          <div class="col-3 p-0">
+            <p class="footerTxt">1048 E. Waterloo Rd.</p>
+            <p class="footerTxt">(209)462-1113</p>
+          </div>
+          <div class="col-3 p-0">
+            <p class="footerTxt">1419 S. El Dorado St.</p>
+            <p class="footerTxt">(209)462-1234</p>
+          </div>
+        </div>
+      </div>
+      <!-----END OF LOCATIONS COL-->
+    </div>
+    <!------END OF FOOTER------>
+  </div>
+  <!-----END OF CONTAINER FLUID-->
+
+
+
+
+
+
+
+  <!-- XS RESPONSIVENESS -->
+
+  <div class="container-fluid d-block d-sm-none">
+    <div class="row">
+      <div class="col-12">
+        <!-- First navigation bar for larger screen sizes! -->
+        <!-- Navigaton Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./images/Eddie'sPizzaLogo.png" class="firstNavBarLogo" alt="Logo of Eddie's Pizza!">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
+              <ul class="navbar-nav ms-auto me-auto align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" aria-current="page"
+                    href="./menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navBarFont largeNavBar m-0  mx-xl-5 mx-xxl-5" href="./locations.html">Locations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./events.html">Catering</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./locations.html">Order Now</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Second navigation bar begins appears when screen is small!-->
+        <nav
+          class="navbar navbar-expand-lg navbar-light navBarBg bg-light d-xxl-none d-xl-none d-xxl-block d-lg-none d-xl-block">
+          <div class="container-fluid reverse-nav">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../images/Eddie'sPizzaLogo.png" class="smallNavbarLogo" alt="Logo of Eddie's Pizza!">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-        </div><!------END OF FOLLOW US COL-->
-        <div class="col-md-3 col-sm-4 col-5 text-center p-0">
-          <p class="footerHeader">Hours</p>
-          <div class="footerLine"></div>
-          <p class="footerTxt mt-md-3 mt-2">Sun - Thurs: 10:30AM-9:30PM</p>
-          <p class="footerTxt">Fri - Sat: 10:30AM-10:00PM</p>
-        </div>
-        <div class="col-lg-6 col-md-7 col-11 mt-md-0 mt-3 text-center"><!----END OF HOURS COL-->
-          <p class="footerHeader">Locations </p>
-          <div class="footerLine"></div>
-          <div class="row mt-md-3 mt-2">
-            <div class="col-3 p-0">
-              <p class="footerTxt">3201 W. Ben Holt Dr.</p>
-              <p class="footerTxt">(209)951-4999</p>
-            </div>
-            <div class="col-3 p-0">
-              <p class="footerTxt">1304 E. Hammer Ln.</p>
-              <p class="footerTxt">(209)477-2255</p>
-            </div>
-            <div class="col-3 p-0">
-              <p class="footerTxt">1048 E. Waterloo Rd.</p>
-              <p class="footerTxt">(209)462-1113</p>
-            </div>
-            <div class="col-3 p-0">
-              <p class="footerTxt">1419 S. El Dorado St.</p>
-              <p class="footerTxt">(209)462-1234</p>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active smallNavBarFont" aria-current="page" href="./menu.html">Menu</a>
+              <a class="nav-link smallNavBarFont" href="./locations.html">Locations</a>
+              <a class="nav-link smallNavBarFont" href="./events.html">Catering</a>
+              <a class="nav-link smallNavBarFont" href="./locations.html">Order Now</a>
             </div>
           </div>
-        </div><!-----END OF LOCATIONS COL-->
-      </div><!------END OF FOOTER------>
-    </div> <!-----END OF CONTAINER FLUID-->
+        </nav>
+      </div><!-- Closing of my navigation bar -->
+    </div>
 
 
-
-
-
-
-
-    <!-- XS RESPONSIVENESS -->
-
-    <div class="container-fluid d-block d-sm-none">
+    <!-- XS MENU BAR -->
+    <!----------MENU BAR GOES HERE-->
+    <div class="div d-block d-sm-none ">
+      <div class="row menuBarTitle">
+        <a class="nav-link menuBarTitle" href="">
+          <p class="">Menu</p>
+        </a>
+      </div>
       <div class="row">
-        <div class="col-12"> <!-- First navigation bar for larger screen sizes! -->
-          <!-- Navigaton Bar-->
-          <nav class="navbar navbar-expand-lg navbar-light d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">
-                <img src="./images/Eddie'sPizzaLogo.png" class="firstNavBarLogo" alt="Logo of Eddie's Pizza!">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
-                <ul class="navbar-nav ms-auto me-auto align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link active navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" aria-current="page" href="./menu.html">Menu</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navBarFont largeNavBar m-0  mx-xl-5 mx-xxl-5" href="./locations.html">Locations</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./events.html">Catering</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navBarFont largeNavBar m-0 mx-xl-5 mx-xxl-5" href="./locations.html">Order Now</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <!-- Second navigation bar begins appears when screen is small!-->
-          <nav class="navbar navbar-expand-lg navbar-light navBarBg bg-light d-xxl-none d-xl-none d-xxl-block d-lg-none d-xl-block">
-            <div class="container-fluid reverse-nav">
-              <a class="navbar-brand" href="../index.html">
-                <img src="../images/Eddie'sPizzaLogo.png" class="smallNavbarLogo" alt="Logo of Eddie's Pizza!">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active smallNavBarFont" aria-current="page" href="./menu.html">Menu</a>
-                <a class="nav-link smallNavBarFont" href="./locations.html">Locations</a>
-                <a class="nav-link smallNavBarFont" href="./events.html">Catering</a>
-                <a class="nav-link smallNavBarFont" href="./locations.html">Order Now</a>
-              </div>
-            </div>
-          </nav>
-        </div><!-- Closing of my navigation bar -->
-      </div>
-      
-
-      <!-- XS MENU BAR -->
-      <!----------MENU BAR GOES HERE-->
-      <div class="div d-block d-sm-none ">
-        <div class="row menuBarTitle">
-          <a class="nav-link menuBarTitle" href="">
-            <p class="">Menu</p>
-          </a>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <ul class="nav justify-content-center">
-              <li>
-                <a class="nav-link menuBarOptionsXS" href="#goToGourmetPizza2">GOURMET PIZZAS</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptionsXS" href="#goToEddiesFavorites2">EDDIE'S FAVORITES</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptionsXS" href="#goToSpecialtyPizza2">SPECIALTY PIZZAS</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptionsXS" href="#goToAppetizers2">APPETIZERS</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <ul class="nav justify-content-center">
-              <li>
-                <a class="nav-link menuBarOptionsXS" href="#goToSoupsAndSalads2">SOUPS AND SALADS</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptionsXS" href="#goToSandwiches2">SANDWICHES</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptionsXS" href="#goToPasta2">PASTA</a>
-              </li>
-              <li>
-                <a class="nav-link menuBarOptionsXS" href="#goToDailyLunchSpecials2">DAILY LUNCH SPECIALS</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-      <div class="row mt-5">
         <div class="col-12">
-          <p class="typeOfFoodTitleXS">PIZZA</p>
-          <p class="foodDescriptionTitleXS">Personal - 7” Pizza for two - 10” Large 14” Family - 16” Big Ed - 24”</p>
+          <ul class="nav justify-content-center">
+            <li>
+              <a class="nav-link menuBarOptionsXS" href="#goToGourmetPizza2">GOURMET PIZZAS</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptionsXS" href="#goToEddiesFavorites2">EDDIE'S FAVORITES</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptionsXS" href="#goToSpecialtyPizza2">SPECIALTY PIZZAS</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptionsXS" href="#goToAppetizers2">APPETIZERS</a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="row">
-        <!-- column of picture -->
-        <div class="col-12 p-0">
-          <div class="menuImgColXS d-flex">
-            <img src="../images/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="" class="img-fluid mx-auto menuImgXS d-block" >
-          </div>
-        </div><!-----END COLUMN OF PICTURE-->
-      </div>
-      <div class="row mt-5">
-        <!-- column of locations -->
         <div class="col-12">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <p id="goToGourmetPizza2" class="typeOfFoodTxt">GOURMET PIZZAS</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Famous Combination Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Pepperoni, Italian Sausage, Mushrooms, Ham, Bell Peppers, Onions, Black Olives, Linguica, Dry Italian Salami, Pepperoni</p>
-              </div>
-            </div><!-----END OF MENU FIRST ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Chicken Club Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served With Our Rich Garlic Ranch, White Chicken Chunks, Bacon, Diced Tomatoes, Diced Tomatoes, Topped With Slivers Of Red Onions</p>
-              </div>
-            </div><!-----END OF MENU SECOND ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">BBQ Chicken Delight</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Smothered With Our Famous BBQ Sauce, White Chicken Chunks, Bacon, Topped With Pineapple Chunks</p>
-              </div>
-            </div><!-----END OF MENU THIRD ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Totally Vegetarian Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Mushrooms, Bell Peppers, Onions, Black Olives, Fresh or Cooked Tomatoes, Artichokes, Fresh Sprouts</p>
-              </div>
-            </div><!-----END OF MENU FOURTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">BBQ Chicken Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Tender White Chicken Chunks, Smothered In Our Famous BBQ Sauce, Topped With Slivers of Red Onions and Cilantro</p>
-              </div>
-            </div><!-----END OF MENU FIFTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Pesto Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Basil Pesto Sauce Topped With: Our Famous Three Cheese Blend, Sauteed Mushrooms With a Dash of White  and Fresh Tomatoes</p>
-              </div>
-            </div><!-----END OF MENU SIXTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Chipotle Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Chipotle Sauce Topped With: Ground Beef, Black Olives, Red Onions, Cilantro, Fresh Tomatoes</p>
-              </div>
-            </div><!-----END OF MENU SEVENTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Meat Supreme Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Italian Garlic Sausage, Ground Beef, Salami, Pepperoni, Ham, Linguica, A Tasty Way To Eat An All Meat Eddie’s Pizza!</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p id="goToEddiesFavorites2" class="typeOfFoodTxt">EDDIE'S FAVORITES</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Hawaiian Delight</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>One Of Our Most Popular Pizzas! Generous Slices Of Ham And Chunks of Pineapple - Great For All Ages!</p>
-              </div>
-            </div><!-----END OF MENU FIRST ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Super Pepperoni</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Can’t Get Enough Pepperoni? Twice the Pepperoni - Twice the Taste</p>
-              </div>
-            </div><!-----END OF MENU SECOND ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Garlic Ranch Chicken Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served With Creamy Garlic Ranch Sauce Topped With White Chicken Chunks</p>
-              </div>
-            </div><!-----END OF MENU THIRD ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Pepper Rings Pizzas</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served With Eddie’s Famous Pizza Sauce, Pepperoni, Pepper Rings With Eddie’s Famous Three Cheese Blend</p>
-              </div>
-            </div><!-----END OF MENU FOURTH ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p id="goToSpecialtyPizza2" class="typeOfFoodTxt">SPECIALTY PIZZA</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Gourmet Steak Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served Sauteed Style With: Our Newest Spicy Garlic Ranch Sauce (Or Choice of Spicy BBQ Sauce) Topped With: Generous Portions Of Tenderloin Steak Strips, Mushrooms, Bell Peppers, Red Onions</p>
-              </div>
-            </div><!-----END OF MENU FIFTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Picante Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Delicious Picante Sauce, Chicken, Diced Onions, Diced Tomatoes, Jalapeños</p>
-              </div>
-            </div><!-----END OF MENU SIXTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Mexicana Pizza</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Served With Our Famous Pizza Sauce, Diced Onions, Diced Bell Peppers, Jalapeños, Chorizo</p>
-              </div>
-            </div><!-----END OF MENU SEVENTH ROW-->
-          </div><!-----END OF CONTAINER-->
-        </div><!------END COLUMN OF LOCATIONS-->
-      </div> <!-----END OF ROW WITH 2 COLUMNS: LOCATIONS AND PIC-->
-
-
-
-      <div class="row">
-        <!-- column of picture -->
-        <div class="col-12 p-0">
-          <div class="menuImgColXS2 d-flex">
-            <img src="../images/tim-toomey-STqHLqMne3k-unsplash.jpg" alt="" class="img-fluid mx-auto menuImgXS2 d-block" >
-          </div>
-        </div><!-----END COLUMN OF PICTURE-->
-      </div>
-      <div class="row mt-5">
-        <!-- column of locations -->
-        <div class="col-12">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <p class="typeOfFoodTitleXS">NOT IN THE MOOD FOR PIZZA?</p>
-                <p id="goToAppetizers2" class="typeOfFoodTxt">APPETIZERS</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Garlic Bread Twist</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Toasty Hot Garlic Bread, Covered With Our Pizza Cheeses, Served With Spaghetti Sauce Or Ranch Dressing For Dipping</p>
-              </div>
-            </div><!-----END OF MENU FIRST ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s Cheesy Garlic Bread</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Toasty Hot Garlic Bread, Covered With Our Pizza Cheeses, Served With Spaghetti Sauce Or Ranch Dressing For Dipping</p>
-              </div>
-            </div><!-----END OF MENU SECOND ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Tasty Wedge Potatoes</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Breaded In Our Special Seasonings Then Oven Baked To Perfection</p>
-              </div>
-            </div><!-----END OF MENU THIRD ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">WINGS</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Your Choice Of Spicy Buffalo Or BBQ Wings</p>
-              </div>
-            </div><!-----END OF MENU FOURTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Popcorn Chicken</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions of Popcorn Chicken Nuggets That Is Great For All Ages</p>
-              </div>
-            </div><!-----END OF MENU FIFTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Chicken finger basket</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Tasty Breaded And Tender Chicken Fingers Served With Your Choice Of Our Famous Ranch Or BBQ Sauce</p>
-              </div>
-            </div><!-----END OF MENU SIXTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Sampler Platter</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions Of Spicy & BBQ Wings, Popcorn Chicken, Wedges, Served With Eddie’s Famous Ranch Sauce</p>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <p id="goToSoupsAndSalads2" class="typeOfFoodTxt">SOUPS AND SALADS</p>
-                </div>
-              </div>
-            </div><!-----END OF MENU SEVENTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Fresh Garden Salad</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>All Salads Are Made Fresh Daily And Served With Your Choice Of Dressing</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p id="goToSoupsAndSalads" class="locationsHeader ">SOUP AND SALAD COMBO</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>All Salads Are Made Fresh Daily And Served With Your Choice Of Dressing</p>
-              </div>
-            </div><!-----END OF MENU FIRST ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Eddie’s specialty Salads</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Choose Any One Of Our Famous Eddie’s Salads: Chef’s, Vegetarian, Chicken Caesar</p>
-              </div>
-            </div><!-----END OF MENU SECOND ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p id="goToSandwiches2" class="typeOfFoodTxt">SANDWICHES</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Ham Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Prepared With: Mayonnaise Mustard Lettuce Tomato Pickle Chips Your Choice Of American Or Swiss Cheese On A Steak Roll</p>
-              </div>
-            </div><!-----END OF MENU THIRD ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">BBQ Beef Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Lean Roast Beef Drenched In A Medium BBQ Sauce</p>
-              </div>
-            </div><!-----END OF MENU FOURTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">French Dip Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>One Of Our Best Values! Lean Roast Beef Served On A Steak Roll With Hot Au Jus Sauce</p>
-              </div>
-            </div><!-----END OF MENU FIFTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Philly Steak Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Cooked Sauteed Style Of Tenderloin Strip Steak Onions Bell Peppers Topped With Our Famous Three Cheese Blend</p>
-              </div>
-            </div><!-----END OF MENU SIXTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Chicken Strip Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Oven Baked Chicken Tenders Served On Our Fresh Steak Roll, With Our Famous Ranch Sauce Lettuce Tomatoes Pickles Your Choice Of Swiss Or American Cheese</p>
-              </div>
-            </div><!-----END OF MENU SEVENTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Chicken Pesto Sandwich</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions Of Chicken Tenders Mushrooms Pesto Our Famous Three Cheese Blend Served with Our Tasty Wedge Potatoes</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p id="goToPasta2" class="typeOfFoodTxt">PASTA</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Lasagna</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Lasagna Smothered With Our Homemade Meat Sauce And Garlic Bread</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Italian Spaghetti Pasta</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Spaghetti Smothered With Our Homemade Meat Sauce And Garlic Bread</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Pesto Pasta</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions Of Tender Chicken Chunks Mushrooms Pesto Served Over A Bed Of Pasta And Garlic Bread</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-7 mb-0">
-                    <p class="locationsHeader ">Alfredo Pasta</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Generous Portions Of Tender White Chicken Chunks Mushrooms Our Rich Flavored Alfred Sauce Served Over A Plentiful Bed of Pasta Sprinkled With Basil Leaves And Garlic Bread</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12">
-                <p id="goToDailyLunchSpecials2" class="typeOfFoodTxt">DAILY LUNCH SPECIALS</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 mb-0">
-                    <p class="locationsHeader ">Personal Two Topping Pizza, Fresh Garden Salad and Soda</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Personal Two Topping Pizza, Fresh Garden Salad, Soda</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12 mb-0">
-                    <p class="locationsHeader ">Soup, Fresh garden salad, garlic bread twist and soda</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Soup, Fresh Garden Salad, Garlic Bread Twist, Soda</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-            <div class="row">
-              <div class="col-12 mb-0">
-                    <p class="locationsHeader ">Choice of Chef, chicken caesar, or veggie salad, twist and soda</p>
-              </div>
-              <div class="greenLine"></div>
-              <div class="col-12 menuTxt mt-3">
-                  <p>Your Choice Of Chef, Chicken Cesar, Or Vegetarian Salad, Bread Twist, Soda</p>
-              </div>
-            </div><!-----END OF MENU EIGHTH ROW-->
-          </div><!-----END OF CONTAINER-->
-        </div><!------END COLUMN OF LOCATIONS-->
-      </div> <!-----END OF ROW WITH 2 COLUMNS: LOCATIONS AND PIC-->
-
-      <div class="row justify-content-center text-center mt-5">
-        <div class="col-12 quotesCol quotesTxt mt-5">
-          <p class="quotesTxt">"Every pizza is a personal pizza if you try hard and believe in yourself."
-          </p>
-          <p> - Bill Murray</p>
+          <ul class="nav justify-content-center">
+            <li>
+              <a class="nav-link menuBarOptionsXS" href="#goToSoupsAndSalads2">SOUPS AND SALADS</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptionsXS" href="#goToSandwiches2">SANDWICHES</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptionsXS" href="#goToPasta2">PASTA</a>
+            </li>
+            <li>
+              <a class="nav-link menuBarOptionsXS" href="#goToDailyLunchSpecials2">DAILY LUNCH SPECIALS</a>
+            </li>
+          </ul>
         </div>
-      </div><!------END OF QUOTES ROW------>
-      <div class="row justify-content-evenly mt-lg-5 mt-3"><!-------START OF FOOTER------>
-        <div class="col-md-2 col-4 text-center">
-          <p class="footerHeader">Follow Us</p>
-          <div class="footerLine"></div>
-          <div class="iconRow mt-md-2">
-            <button class="btn iconBtn"><a href="https://www.facebook.com/eddiespizza1/">
+      </div>
+
+    </div>
+    <div class="row mt-5">
+      <div class="col-12">
+        <p class="typeOfFoodTitleXS">PIZZA</p>
+        <p class="foodDescriptionTitleXS">Personal - 7” Pizza for two - 10” Large 14” Family - 16” Big Ed - 24”</p>
+      </div>
+    </div>
+    <div class="row">
+      <!-- column of picture -->
+      <div class="col-12 p-0">
+        <div class="menuImgColXS d-flex">
+          <img src="../images/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="" class="img-fluid mx-auto menuImgXS d-block">
+        </div>
+      </div>
+      <!-----END COLUMN OF PICTURE-->
+    </div>
+    <div class="row mt-5">
+      <!-- column of locations -->
+      <div class="col-12">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p id="goToGourmetPizza2" class="typeOfFoodTxt">GOURMET PIZZAS</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Famous Combination Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Pepperoni, Italian Sausage, Mushrooms, Ham, Bell Peppers, Onions, Black Olives, Linguica, Dry Italian
+                Salami, Pepperoni</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIRST ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Chicken Club Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served With Our Rich Garlic Ranch, White Chicken Chunks, Bacon, Diced Tomatoes, Diced Tomatoes, Topped
+                With Slivers Of Red Onions</p>
+            </div>
+          </div>
+          <!-----END OF MENU SECOND ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">BBQ Chicken Delight</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Smothered With Our Famous BBQ Sauce, White Chicken Chunks, Bacon, Topped With Pineapple Chunks</p>
+            </div>
+          </div>
+          <!-----END OF MENU THIRD ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Totally Vegetarian Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Mushrooms, Bell Peppers, Onions, Black Olives, Fresh or Cooked Tomatoes, Artichokes, Fresh Sprouts</p>
+            </div>
+          </div>
+          <!-----END OF MENU FOURTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">BBQ Chicken Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Tender White Chicken Chunks, Smothered In Our Famous BBQ Sauce, Topped With Slivers of Red Onions and
+                Cilantro</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIFTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Pesto Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Basil Pesto Sauce Topped With: Our Famous Three Cheese Blend, Sauteed Mushrooms With a Dash of White
+                and Fresh Tomatoes</p>
+            </div>
+          </div>
+          <!-----END OF MENU SIXTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Chipotle Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Chipotle Sauce Topped With: Ground Beef, Black Olives, Red Onions, Cilantro, Fresh Tomatoes</p>
+            </div>
+          </div>
+          <!-----END OF MENU SEVENTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Meat Supreme Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Italian Garlic Sausage, Ground Beef, Salami, Pepperoni, Ham, Linguica, A Tasty Way To Eat An All Meat
+                Eddie’s Pizza!</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p id="goToEddiesFavorites2" class="typeOfFoodTxt">EDDIE'S FAVORITES</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Hawaiian Delight</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>One Of Our Most Popular Pizzas! Generous Slices Of Ham And Chunks of Pineapple - Great For All Ages!
+              </p>
+            </div>
+          </div>
+          <!-----END OF MENU FIRST ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Super Pepperoni</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Can’t Get Enough Pepperoni? Twice the Pepperoni - Twice the Taste</p>
+            </div>
+          </div>
+          <!-----END OF MENU SECOND ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Garlic Ranch Chicken Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served With Creamy Garlic Ranch Sauce Topped With White Chicken Chunks</p>
+            </div>
+          </div>
+          <!-----END OF MENU THIRD ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Pepper Rings Pizzas</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served With Eddie’s Famous Pizza Sauce, Pepperoni, Pepper Rings With Eddie’s Famous Three Cheese Blend
+              </p>
+            </div>
+          </div>
+          <!-----END OF MENU FOURTH ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p id="goToSpecialtyPizza2" class="typeOfFoodTxt">SPECIALTY PIZZA</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Gourmet Steak Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served Sauteed Style With: Our Newest Spicy Garlic Ranch Sauce (Or Choice of Spicy BBQ Sauce) Topped
+                With: Generous Portions Of Tenderloin Steak Strips, Mushrooms, Bell Peppers, Red Onions</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIFTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Picante Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Delicious Picante Sauce, Chicken, Diced Onions, Diced Tomatoes, Jalapeños</p>
+            </div>
+          </div>
+          <!-----END OF MENU SIXTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Mexicana Pizza</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Served With Our Famous Pizza Sauce, Diced Onions, Diced Bell Peppers, Jalapeños, Chorizo</p>
+            </div>
+          </div>
+          <!-----END OF MENU SEVENTH ROW-->
+        </div>
+        <!-----END OF CONTAINER-->
+      </div>
+      <!------END COLUMN OF LOCATIONS-->
+    </div>
+    <!-----END OF ROW WITH 2 COLUMNS: LOCATIONS AND PIC-->
+
+
+
+    <div class="row">
+      <!-- column of picture -->
+      <div class="col-12 p-0">
+        <div class="menuImgColXS2 d-flex">
+          <img src="../images/tim-toomey-STqHLqMne3k-unsplash.jpg" alt="" class="img-fluid mx-auto menuImgXS2 d-block">
+        </div>
+      </div>
+      <!-----END COLUMN OF PICTURE-->
+    </div>
+    <div class="row mt-5">
+      <!-- column of locations -->
+      <div class="col-12">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="typeOfFoodTitleXS">NOT IN THE MOOD FOR PIZZA?</p>
+              <p id="goToAppetizers2" class="typeOfFoodTxt">APPETIZERS</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Garlic Bread Twist</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Toasty Hot Garlic Bread, Covered With Our Pizza Cheeses, Served With Spaghetti Sauce Or Ranch Dressing
+                For Dipping</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIRST ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s Cheesy Garlic Bread</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Toasty Hot Garlic Bread, Covered With Our Pizza Cheeses, Served With Spaghetti Sauce Or Ranch Dressing
+                For Dipping</p>
+            </div>
+          </div>
+          <!-----END OF MENU SECOND ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Tasty Wedge Potatoes</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Breaded In Our Special Seasonings Then Oven Baked To Perfection</p>
+            </div>
+          </div>
+          <!-----END OF MENU THIRD ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">WINGS</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Your Choice Of Spicy Buffalo Or BBQ Wings</p>
+            </div>
+          </div>
+          <!-----END OF MENU FOURTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Popcorn Chicken</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions of Popcorn Chicken Nuggets That Is Great For All Ages</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIFTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Chicken finger basket</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Tasty Breaded And Tender Chicken Fingers Served With Your Choice Of Our Famous Ranch Or BBQ Sauce</p>
+            </div>
+          </div>
+          <!-----END OF MENU SIXTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Sampler Platter</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions Of Spicy & BBQ Wings, Popcorn Chicken, Wedges, Served With Eddie’s Famous Ranch Sauce
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p id="goToSoupsAndSalads2" class="typeOfFoodTxt">SOUPS AND SALADS</p>
+              </div>
+            </div>
+          </div>
+          <!-----END OF MENU SEVENTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Fresh Garden Salad</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>All Salads Are Made Fresh Daily And Served With Your Choice Of Dressing</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p id="goToSoupsAndSalads" class="locationsHeader ">SOUP AND SALAD COMBO</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>All Salads Are Made Fresh Daily And Served With Your Choice Of Dressing</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIRST ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Eddie’s specialty Salads</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Choose Any One Of Our Famous Eddie’s Salads: Chef’s, Vegetarian, Chicken Caesar</p>
+            </div>
+          </div>
+          <!-----END OF MENU SECOND ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p id="goToSandwiches2" class="typeOfFoodTxt">SANDWICHES</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Ham Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Prepared With: Mayonnaise Mustard Lettuce Tomato Pickle Chips Your Choice Of American Or Swiss Cheese
+                On A Steak Roll</p>
+            </div>
+          </div>
+          <!-----END OF MENU THIRD ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">BBQ Beef Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Lean Roast Beef Drenched In A Medium BBQ Sauce</p>
+            </div>
+          </div>
+          <!-----END OF MENU FOURTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">French Dip Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>One Of Our Best Values! Lean Roast Beef Served On A Steak Roll With Hot Au Jus Sauce</p>
+            </div>
+          </div>
+          <!-----END OF MENU FIFTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Philly Steak Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Cooked Sauteed Style Of Tenderloin Strip Steak Onions Bell Peppers Topped With Our Famous Three Cheese
+                Blend</p>
+            </div>
+          </div>
+          <!-----END OF MENU SIXTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Chicken Strip Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Oven Baked Chicken Tenders Served On Our Fresh Steak Roll, With Our Famous Ranch Sauce Lettuce Tomatoes
+                Pickles Your Choice Of Swiss Or American Cheese</p>
+            </div>
+          </div>
+          <!-----END OF MENU SEVENTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Chicken Pesto Sandwich</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions Of Chicken Tenders Mushrooms Pesto Our Famous Three Cheese Blend Served with Our
+                Tasty Wedge Potatoes</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p id="goToPasta2" class="typeOfFoodTxt">PASTA</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Lasagna</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Lasagna Smothered With Our Homemade Meat Sauce And Garlic Bread</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Italian Spaghetti Pasta</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Spaghetti Smothered With Our Homemade Meat Sauce And Garlic Bread</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Pesto Pasta</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions Of Tender Chicken Chunks Mushrooms Pesto Served Over A Bed Of Pasta And Garlic Bread
+              </p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-7 mb-0">
+              <p class="locationsHeader ">Alfredo Pasta</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Generous Portions Of Tender White Chicken Chunks Mushrooms Our Rich Flavored Alfred Sauce Served Over A
+                Plentiful Bed of Pasta Sprinkled With Basil Leaves And Garlic Bread</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12">
+              <p id="goToDailyLunchSpecials2" class="typeOfFoodTxt">DAILY LUNCH SPECIALS</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 mb-0">
+              <p class="locationsHeader ">Personal Two Topping Pizza, Fresh Garden Salad and Soda</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Personal Two Topping Pizza, Fresh Garden Salad, Soda</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12 mb-0">
+              <p class="locationsHeader ">Soup, Fresh garden salad, garlic bread twist and soda</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Soup, Fresh Garden Salad, Garlic Bread Twist, Soda</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+          <div class="row">
+            <div class="col-12 mb-0">
+              <p class="locationsHeader ">Choice of Chef, chicken caesar, or veggie salad, twist and soda</p>
+            </div>
+            <div class="greenLine"></div>
+            <div class="col-12 menuTxt mt-3">
+              <p>Your Choice Of Chef, Chicken Cesar, Or Vegetarian Salad, Bread Twist, Soda</p>
+            </div>
+          </div>
+          <!-----END OF MENU EIGHTH ROW-->
+        </div>
+        <!-----END OF CONTAINER-->
+      </div>
+      <!------END COLUMN OF LOCATIONS-->
+    </div>
+    <!-----END OF ROW WITH 2 COLUMNS: LOCATIONS AND PIC-->
+
+    <div class="row justify-content-center text-center mt-5">
+      <div class="col-12 quotesCol quotesTxt mt-5">
+        <p class="quotesTxt">"Every pizza is a personal pizza if you try hard and believe in yourself."
+        </p>
+        <p> - Bill Murray</p>
+      </div>
+    </div>
+    <!------END OF QUOTES ROW------>
+    <div class="row justify-content-evenly mt-lg-5 mt-3">
+      <!-------START OF FOOTER------>
+      <div class="col-md-2 col-4 text-center">
+        <p class="footerHeader">Follow Us</p>
+        <div class="footerLine"></div>
+        <div class="iconRow mt-md-2">
+          <button class="btn iconBtn"><a href="https://www.facebook.com/eddiespizza1/">
               <i class="fab fa-facebook"></i></a>
-            </button>
-            <button class="btn iconBtn"><a href="https://www.instagram.com/eddiespizzacafe/?hl=en">
+          </button>
+          <button class="btn iconBtn"><a href="https://www.instagram.com/eddiespizzacafe/?hl=en">
               <i class="fab fa-instagram"></i></a>
-            </button>
-            <button class="btn iconBtn"><a href ="https://www.yelp.com/biz/eddies-pizza-stockton?osq=eddie%27s+pizza">
+          </button>
+          <button class="btn iconBtn"><a href="https://www.yelp.com/biz/eddies-pizza-stockton?osq=eddie%27s+pizza">
               <i class="fab fa-yelp"></i></a>
-            </button>
-          </div>
-        </div><!------END OF FOLLOW US COL-->
-        <div class="col-md-3 col-sm-4 col-5 text-center p-0">
-          <p class="footerHeader">Hours</p>
-          <div class="footerLine"></div>
-          <p class="footerTxt mt-md-3 mt-2">Sun - Thurs: 10:30AM-9:30PM</p>
-          <p class="footerTxt">Fri - Sat: 10:30AM-10:00PM</p>
+          </button>
         </div>
-        <div class="col-lg-6 col-md-7 col-11 mt-md-0 mt-3 text-center"><!----END OF HOURS COL-->
-          <p class="footerHeader">Locations </p>
-          <div class="footerLine"></div>
-          <div class="row mt-md-3 mt-2">
-            <div class="col-3 p-0">
-              <p class="footerTxt">3201 W. Ben Holt Dr.</p>
-              <p class="footerTxt">(209)951-4999</p>
-            </div>
-            <div class="col-3 p-0">
-              <p class="footerTxt">1304 E. Hammer Ln.</p>
-              <p class="footerTxt">(209)477-2255</p>
-            </div>
-            <div class="col-3 p-0">
-              <p class="footerTxt">1048 E. Waterloo Rd.</p>
-              <p class="footerTxt">(209)462-1113</p>
-            </div>
-            <div class="col-3 p-0">
-              <p class="footerTxt">1419 S. El Dorado St.</p>
-              <p class="footerTxt">(209)462-1234</p>
-            </div>
+      </div>
+      <!------END OF FOLLOW US COL-->
+      <div class="col-md-3 col-sm-4 col-5 text-center p-0">
+        <p class="footerHeader">Hours</p>
+        <div class="footerLine"></div>
+        <p class="footerTxt mt-md-3 mt-2">Sun - Thurs: 10:30AM-9:30PM</p>
+        <p class="footerTxt">Fri - Sat: 10:30AM-10:00PM</p>
+      </div>
+      <div class="col-lg-6 col-md-7 col-11 mt-md-0 mt-3 text-center">
+        <!----END OF HOURS COL-->
+        <p class="footerHeader">Locations </p>
+        <div class="footerLine"></div>
+        <div class="row mt-md-3 mt-2">
+          <div class="col-3 p-0">
+            <p class="footerTxt">3201 W. Ben Holt Dr.</p>
+            <p class="footerTxt">(209)951-4999</p>
           </div>
-        </div><!-----END OF LOCATIONS COL-->
-      </div><!------END OF FOOTER------>
-    </div> <!-----END OF CONTAINER FLUID-->
+          <div class="col-3 p-0">
+            <p class="footerTxt">1304 E. Hammer Ln.</p>
+            <p class="footerTxt">(209)477-2255</p>
+          </div>
+          <div class="col-3 p-0">
+            <p class="footerTxt">1048 E. Waterloo Rd.</p>
+            <p class="footerTxt">(209)462-1113</p>
+          </div>
+          <div class="col-3 p-0">
+            <p class="footerTxt">1419 S. El Dorado St.</p>
+            <p class="footerTxt">(209)462-1234</p>
+          </div>
+        </div>
+      </div>
+      <!-----END OF LOCATIONS COL-->
+    </div>
+    <!------END OF FOOTER------>
+  </div>
+  <!-----END OF CONTAINER FLUID-->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>

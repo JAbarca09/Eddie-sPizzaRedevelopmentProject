@@ -269,7 +269,7 @@ a{
 .typeOfFoodTitle {
     color: white;
     font-family: 'Staatliches', Regular;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     line-height: 1;
 }
@@ -277,7 +277,7 @@ a{
 .typeOfFoodTitleXS {
     color: white;
     font-family: 'Staatliches', Regular;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     line-height: 1;
 }

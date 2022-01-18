@@ -121,18 +121,18 @@
 .ContactUsWhiteThinTxt {
   font-family: "Raleway", sans-serif;
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .whiteTitleTxt {
   font-family: "Staatliches", cursive;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
 }
 
 .blackTitleTxt {
   font-family: "Staatliches", cursive;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: black;
 }
 
@@ -164,12 +164,12 @@ body {
 /* --------- FONTS SETUP---------------- */
 @font-face{
     font-family: 'Raleway';
-    src: url('../fonts/Raleway-VariableFont_wght.ttf');
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
 }
 
 @font-face{
     font-family: 'Staatliches';
-    src: url('../fonts/Staatliches-Regular.ttf');
+    src: url("../fonts/Staatliches-Regular.ttf");
 }
 
 /* --------- LOCATIONS STYLING -------- */
@@ -207,13 +207,6 @@ a{
 }
 
 /* <<<<<<< HEAD */
-.locationsTxt {
-  font-family: "Raleway", sans-serif;
-  color: #ffffff;
-  margin-top: 0px;
-  font-size: 1rem;
-  line-height: 30%;
-}
 
 .locationsTxt{
     font-family: 'Raleway', sans-serif;
@@ -677,34 +670,34 @@ ul li a:hover, ul li a:focus {
     opacity: 100% !important;
   }
 
-  .whiteThinTxt {
+  /* .whiteThinTxt {
     font-family: "Raleway", sans-serif;
     color: white;
     font-size: 1.75rem;
-  }
+  } */
   
   .ContactUsWhiteThinTxt {
     font-family: "Raleway", sans-serif;
     color: white;
-    font-size: 1.75rem;
+    font-size: 1.3rem;
   }
   
   .whiteTitleTxt {
     font-family: "Staatliches", cursive;
-    font-size: 2.25rem;
+    font-size: 2rem;
     color: white;
   }
   
   .blackTitleTxt {
     font-family: "Staatliches", cursive;
-    font-size: 2.25rem;
+    font-size: 2rem;
     color: black;
   }
   
   .blackText {
     font-family: "Raleway", sans-serif;
     color: black;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
 }
@@ -752,7 +745,7 @@ ul li a:hover, ul li a:focus {
   .whiteThinTxt {
     font-family: "Raleway", sans-serif;
     color: white;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   
   .ContactUsWhiteThinTxt {

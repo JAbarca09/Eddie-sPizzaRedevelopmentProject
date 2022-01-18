@@ -136,18 +136,18 @@ body {
 .ContactUsWhiteThinTxt {
   font-family: "Raleway", sans-serif;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .whiteTitleTxt {
   font-family: "Staatliches", cursive;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: white;
 }
 
 .blackTitleTxt {
   font-family: "Staatliches", cursive;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: black;
 }
 
@@ -160,7 +160,7 @@ body {
 /* --------------------------------------------------------------- */
 /* Quote Section */
 
-.quoteTxt {
+/* .quoteTxt {
   font-family: "Staatliches", cursive;
   color: white;
   font-size: 2.5rem;
@@ -170,7 +170,7 @@ body {
   font-family: "Staatliches", cursive;
   color: white;
   font-size: 2rem;
-}
+} */
 
 /* --------- LOCATIONS STYLING -------- */
 .locationsHeader {
@@ -398,7 +398,6 @@ ul li a:hover, ul li a:focus {
 }
 
 /* --------- FOOOTER STYLING---------- */
-/* <<<<<<< HEAD */
 .footerHeader {
   color: #d61a3f;
   font-family: "Staatliches", cursive;
@@ -428,17 +427,6 @@ ul li a:hover, ul li a:focus {
   flex-direction: row;
 }
 
-/* <<<<<<< HEAD */
-.footerTxt {
-  color: #ffffff;
-  font-family: "Staatliches", cursive;
-  font-size: 0.8rem;
-  line-height: 10%;
-  text-decoration: none;
-}
-
-/* -------FOOOTER RESPONSIVENESS-------- */
-/* ======= */
 .footerTxt{
     color: #ffffff;
     font-family: 'Staatliches', cursive;
@@ -464,13 +452,13 @@ ul li a:hover, ul li a:focus {
 .eventsTxt{
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .offeringsTxt{
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     line-height: 100%;
 }
 
@@ -489,6 +477,7 @@ ul li a:hover, ul li a:focus {
 }
 
 /* ------- RESPONSIVENESS-------- */
+
 @media screen and (max-width: 1100px){
     .footerHeader{
         font-size: 1.3rem;
@@ -496,68 +485,158 @@ ul li a:hover, ul li a:focus {
     .footerTxt{
         font-size: 1rem;
     }
+
+    /* Jesse Media Querries are below */
+    /* THe logo for the second navbar */
+    .smallNavbarLogo{
+      height: 120px;
+      width: 180px;
+    }
+
+    #pizzaGif {
+      background-image: url(../images/PizzaLoopExperiment.gif);
+      width: 100%;
+      height: 100vh;
+      /* background-position: left; */
+    }
+
+    .marginTop {
+      margin-top: 25%;
+    }
+
+    .navbar-light .navbar-toggler-icon{
+      background-image: url(../images/togglerIconBg.png) !important;
+      width: 8vh;
+      height: 8vh;
+    }
+
+    .smallNavBarFont {
+      font-family: 'Staatliches', cursive;
+      font-size: 2rem;
+      color: white !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      margin-left: 43px;
+    }
+    
+    .videoTitleTxt {
+      font-size: 3rem;
+      opacity: 100% !important;
+    }
+
+    /* .whiteThinTxt {
+      font-family: "Raleway", sans-serif;
+      color: white;
+      font-size: 1.75rem;
+    } */
+    
+    .ContactUsWhiteThinTxt {
+      font-size: 1.5rem;
+    }
+    
+    .whiteTitleTxt {
+      font-size: 2rem;
+    }
+    
+    .blackTitleTxt {
+      font-size: 2rem;
+    }
+    
+    .blackText {
+      font-size: 1.5rem;
+    }
 }
 
-/* >>>>>>> bc9ae7b68f79ed1d014c26f15420f4e9a14641ca */
-/* styling for medium devices */
-@media screen and (max-width: 800px) {
-  .quotesCol {
-    line-height: 90%;
-  }
+  /* styling for medium devices */
+  @media screen and (max-width: 800px) {
+    .locationsHeader{
+      font-size: 1.6rem;
+    }
 
-  .fab {
-    font-size: 1.2rem;
-  }
+    .locationsbtn{
+      font-size: 0.9rem;
+    }
 
-/* <<<<<<< HEAD */
-  .iconBtn {
-    padding: 5px;
-    text-decoration: none;
-  }
-/* ======= */
+    .quotesCol {
+      line-height: 90%;
+    }
+
+    .fab {
+      font-size: 1.2rem;
+    }
+
+    .iconBtn {
+      padding: 5px;
+      text-decoration: none;
+    }
+
     .footerTxt{
-        font-size: 0.9rem;
+          font-size: 0.9rem;
+      }
+
+    .quotesTxt {
+      font-size: 1.8rem;
     }
-    .quotesTxt{
-        font-size: 1.6rem;
-    }
 
-  .footerTxt {
-    font-size: 0.85rem;
-  }
-  .quotesTxt {
-    font-size: 1.6rem;
-  }
-}
-
-/* <<<<<<< HEAD */
-/* small screens */
-@media screen and (max-width: 600px) {
-  .locationsHeader {
-    font-size: 1.2rem;
-    /* line-height: 100%; */
+    /* Jesse's media queries */
+    /* The size of the pizza logo should change, text size should change  */
+  .smallNavbarLogo{
+    height: 80px;
+    width: 100px;
   }
 
-  .locationsbtn {
-    font-size: 0.6rem;
+  #pizzaGif {
+    background-image: url(../images/PizzaLoopExperiment.gif);
+    width: 100%;
+    height: 100vh;
+    background-position: left;
   }
 
-  .locationsTxt {
-    font-size: 0.8rem;
-    line-height: 5%;
-  }
-  .footerTxt {
-    font-size: 0.6rem;
-  }
-  .quotesTxt {
-    font-size: 1.3rem;
+  .marginTop {
+    margin-top: 30%;
   }
 
-  .footerHeader {
-    margin-bottom: 12px;
+  .navbar-light .navbar-toggler-icon{
+    background-image: url(../images/togglerIconBg.png) !important;
+    width: 6vh;
+    height: 6vh;
   }
-}
-/* ======= */
+
+  /* Navbar text */
+  .smallNavBarFont {
+    font-size: 2rem;
+    color: white !important;
+    margin-left: 43px;
+  }
+  
+  .videoTitleTxt {
+    font-size: 3rem;
+    opacity: 100% !important;
+  }
+
+  .whiteThinTxt {
+    font-size: 1.7rem;
+  }
+  
+  .ContactUsWhiteThinTxt {
+    font-size: 1.5rem;
+  }
+  
+  .whiteTitleTxt {
+    font-size: 2.5rem;
+  }
+  
+  .blackTitleTxt {
+    font-size: 2.5rem;
+  }
+  
+  .blackText {
+    font-size: 1.75rem;
+  }
+
+}  
+
+
 /* small screens like iphone 13 */
 @media screen and (max-width: 600px){
     .locationsHeader{
@@ -565,8 +644,13 @@ ul li a:hover, ul li a:focus {
         /* line-height: 100%; */
     }
 
+    .locationsbtn{
+      font-size: 0.75rem;
+      font-weight: bold;
+    }
+
     .locationsTxt{
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: 5%;
     }
     .footerTxt{
@@ -586,201 +670,22 @@ ul li a:hover, ul li a:focus {
     font-size: 1.3rem;
     }
 
+    .eventsTxt{
+      font-size: 1rem;
+    }
+
     .offeringsTxt{
         font-size: 0.8rem;
     }
     .quotesTxt{
         font-size: 1.4rem;
     }
-}
-/* iphone x */
-@media screen and (max-width: 425px){
-    .locationsHeader{
-        font-size: 1.1rem;
-        font-size: 1rem;
-    }
 
-    .locationsbtn{
-        font-size: 0.75rem;
-        font-weight: normal;
-    }
-
-    .locationsRow{
-        align-items: flex-end;
-    }
-
-    .locationsTxt{
-        font-size: 0.7rem;
-    }
-    .footerTxt{
-        font-size: 0.7rem;
-    }
-
-    .footerHeader{
-        font-size: 1rem;
-    }
-
-    .eventsHeader{
-        font-size: 1.8rem;
-    }
-}
-
-
-/* Jesse Media Querries are below */
-/* 350px, 400px, 600px, 800px, 1100px  */
-
-@media screen and (max-width: 1100px){
-
-  /* THe logo for the second navbar */
+    /* Jesse's media queries */
+    /* The size of the pizza logo should change, text size should change  */
   .smallNavbarLogo{
-    height: 120px;
-    width: 180px;
-  }
-
-  #pizzaGif {
-    background-image: url(../images/PizzaLoopExperiment.gif);
-    width: 100%;
-    height: 100vh;
-    /* background-position: left; */
-  }
-
-  .marginTop {
-    margin-top: 25%;
-  }
-
-  .navbar-light .navbar-toggler-icon{
-    background-image: url(../images/togglerIconBg.png) !important;
-    width: 8vh;
-    height: 8vh;
-  }
-
-  .smallNavBarFont {
-    font-family: "Staatliches", cursive;
-    font-size: 2rem;
-    color: white !important;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    margin-left: 43px;
-  }
-  
-  .videoTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 3rem;
-    color: white;
-    opacity: 100% !important;
-  }
-
-  /* .whiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.75rem;
-  } */
-  
-  .ContactUsWhiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.3rem;
-  }
-  
-  .whiteTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 2rem;
-    color: white;
-  }
-  
-  .blackTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 2rem;
-    color: black;
-  }
-  
-  .blackText {
-    font-family: "Raleway", sans-serif;
-    color: black;
-    font-size: 1.5rem;
-  }
-
-}
-
-
-@media screen and (max-width: 800px){
-  /* The size of the pizza logo should change, text size should change  */
-  .smallNavbarLogo{
-    height: 100px;
-    width: 140px;
-  }
-
-  #pizzaGif {
-    background-image: url(../images/PizzaLoopExperiment.gif);
-    width: 100%;
-    height: 100vh;
-    background-position: left;
-  }
-
-  .marginTop {
-    margin-top: 30%;
-  }
-
-  .navbar-light .navbar-toggler-icon{
-    background-image: url(../images/togglerIconBg.png) !important;
-    width: 8vh;
-    height: 8vh;
-  }
-
-  /* Navbar text */
-  .smallNavBarFont {
-    font-family: "Staatliches", cursive;
-    font-size: 2rem;
-    color: white !important;
-    margin-left: 43px;
-  }
-  
-  .videoTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 3rem;
-    color: white;
-    opacity: 100% !important;
-  }
-
-  .whiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.5rem;
-  }
-  
-  .ContactUsWhiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    font-size: 1.5rem;
-  }
-  
-  .whiteTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 2rem;
-    color: white;
-  }
-  
-  .blackTitleTxt {
-    font-family: "Staatliches", cursive;
-    font-size: 2rem;
-    color: black;
-  }
-  
-  .blackText {
-    font-family: "Raleway", sans-serif;
-    color: black;
-    font-size: 1.75rem;
-  }
-
-}
-
-
-
-@media screen and (max-width: 600px){
-  /* The size of the pizza logo should change, text size should change  */
-  .smallNavbarLogo{
-    height: 100px;
-    width: 140px;
+    height: 80px;
+    width: 100px;
   }
 
   #pizzaGif {
@@ -802,50 +707,78 @@ ul li a:hover, ul li a:focus {
 
   /* Navbar text */
   .smallNavBarFont {
-    font-family: "Staatliches", cursive;
     font-size: 1.5rem;
     color: white !important;
     margin-left: 43px;
   }
   
   .videoTitleTxt {
-    font-family: "Staatliches", cursive;
     font-size: 2.5rem;
-    color: white;
     opacity: 100% !important;
   }
 
   .whiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
     font-size: 1.5rem;
   }
   
   .ContactUsWhiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
     font-size: 1.25rem;
   }
   
   .whiteTitleTxt {
-    font-family: "Staatliches", cursive;
     font-size: 2rem;
-    color: white;
   }
   
   .blackTitleTxt {
-    font-family: "Staatliches", cursive;
     font-size: 2rem;
-    color: black;
   }
   
   .blackText {
-    font-family: "Raleway", sans-serif;
-    color: black;
     font-size: 1.5rem;
   }
 
 }
+
+
+/* iphone x */
+@media screen and (max-width: 425px){
+    .locationsHeader{
+        font-size: 1.2rem;
+    }
+
+    .locationsbtn{
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+
+    .locationsRow{
+        align-items: flex-end;
+    }
+
+    .locationsTxt{
+        font-size: 1rem;
+    }
+    .footerTxt{
+        font-size: 0.7rem;
+    }
+
+    .footerHeader{
+        font-size: 1rem;
+    }
+
+    .eventsHeader{
+        font-size: 1.8rem;
+    }
+
+    .eventsTxt{
+      font-size:0.9rem;
+    }
+}
+
+
+
+/* 350px, 400px, 600px, 800px, 1100px  */
+
 
 
 
@@ -882,39 +815,27 @@ ul li a:hover, ul li a:focus {
   }
   
   .videoTitleTxt {
-    font-family: "Staatliches", cursive;
     font-size: 2.5rem;
-    color: white;
     opacity: 100% !important;
   }
 
   .whiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
     font-size: 1.25rem;
   }
   
   .ContactUsWhiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
     font-size: 1.25rem;
   }
   
   .whiteTitleTxt {
-    font-family: "Staatliches", cursive;
     font-size: 2rem;
-    color: white;
   }
   
   .blackTitleTxt {
-    font-family: "Staatliches", cursive;
     font-size: 2rem;
-    color: black;
   }
   
   .blackText {
-    font-family: "Raleway", sans-serif;
-    color: black;
     font-size: 1.5rem;
   }
 
@@ -943,7 +864,6 @@ ul li a:hover, ul li a:focus {
 
 
   .smallNavBarFont{
-    font-family: "Staatliches", cursive;
     font-size: 1.1rem;
     color: white !important;
     padding-right: 0 !important;
@@ -953,44 +873,29 @@ ul li a:hover, ul li a:focus {
   
 
   .videoTitleTxt {
-    font-family: "Staatliches", cursive;
     font-size: 2rem;
-    color: white;
     opacity: 100% !important;
   }
 
   .whiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
     font-size: 1.1rem;
   }
   
   .ContactUsWhiteThinTxt {
-    font-family: "Raleway", sans-serif;
-    color: white;
     font-size: 1.1rem;
   }
   
   .whiteTitleTxt {
-    font-family: "Staatliches", cursive;
     font-size: 1.5rem;
-    color: white;
   }
   
   .blackTitleTxt {
-    font-family: "Staatliches", cursive;
     font-size: 1.5rem;
-    color: black;
   }
   
   .blackText {
-    font-family: "Raleway", sans-serif;
-    color: black;
     font-size: 1.1rem;
   }
-
-
-/* Jesse's media querries^ */
 
     .eventsTxt{
         font-size: 0.8rem;
@@ -999,48 +904,45 @@ ul li a:hover, ul li a:focus {
     .quotesTxt{
         font-size: 1.3rem;
     }
-}
 
-/* smol phones */
-@media screen and (max-width: 350px){
     .locationsHeader{
-        font-size: 0.84rem;
-    }
+      font-size: 0.84rem;
+  }
 
-    .locationsbtn{
-        font-size: 0.58rem;
-        font-weight: normal;
-    }
-    
-    .locationsRow{
-        align-items: flex-end;
-    }
-    .locationsTxt{
-        font-size: 0.6rem;
-        line-height: 5%;
-    }
-    .footerTxt{
-        font-size: 0.7rem;
-        line-height: 80%;
-    }
+  .locationsbtn{
+      font-size: 0.58rem;
+      font-weight: normal;
+  }
+  
+  .locationsRow{
+      align-items: flex-end;
+  }
+  .locationsTxt{
+      font-size: 0.6rem;
+      line-height: 5%;
+  }
+  .footerTxt{
+      font-size: 0.7rem;
+      line-height: 80%;
+  }
 
-    .eventsHeader{
-        font-size: 1.6rem;
-    }
+  .eventsHeader{
+      font-size: 1.6rem;
+  }
 
-    .eventsHeader2{
-        font-size: 1.1rem;
-        }
+  .eventsHeader2{
+      font-size: 1.1rem;
+      }
 
-    .eventsTxt{
-        font-size: 0.75rem;
-    }
+  .eventsTxt{
+      font-size: 0.9rem;
+  }
 
-    .offeringsTxt{
-        font-size: 0.75rem;
-    }
+  .offeringsTxt{
+      font-size: 0.8rem;
+  }
 
-    .quotesTxt{
-        font-size: 1.2rem;
-    }
+  .quotesTxt{
+      font-size: 1.2rem;
+  }
 }

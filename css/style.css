@@ -1,3 +1,18 @@
+body {
+  background-color: black;
+}
+
+/* --------- FONTS SETUP---------------- */
+@font-face{
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: 'Staatliches';
+    src: url("../fonts/Staatliches-Regular.ttf");
+}
+
 .whiteBg {
   background-color: white;
 }
@@ -155,21 +170,6 @@
   font-family: "Staatliches", cursive;
   color: white;
   font-size: 2rem;
-}
-
-body {
-  background-color: black;
-}
-
-/* --------- FONTS SETUP---------------- */
-@font-face{
-    font-family: 'Raleway';
-    src: url("../fonts/Raleway-VariableFont_wght.ttf");
-}
-
-@font-face{
-    font-family: 'Staatliches';
-    src: url("../fonts/Staatliches-Regular.ttf");
 }
 
 /* --------- LOCATIONS STYLING -------- */
